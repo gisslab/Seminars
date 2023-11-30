@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.15)  29 NOV 2023 13:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.15)  30 NOV 2023 00:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -955,334 +955,245 @@ Package caption Info: changepage package is loaded.
 Package caption Info: End \AtBeginDocument code.
  (./HW_slides.nav) [1
 
-{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for OML+zplm on input line 242.
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
+
+]
+LaTeX Font Info:    Trying to load font information for OML+zplm on input line 248.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 242.
+LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 248.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 242.
+LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 248.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 242.
+(Font)              scaled to size 11.40997pt on input line 248.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 242.
+(Font)              scaled to size 8.33606pt on input line 248.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 242.
+(Font)              scaled to size 6.25204pt on input line 248.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 242.
+(Font)              scaled to size 11.40997pt on input line 248.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 242.
+(Font)              scaled to size 8.33606pt on input line 248.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 242.
-LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 242.
+(Font)              scaled to size 6.25204pt on input line 248.
+LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 248.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 242.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 248.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 242.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 248.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <6> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 242.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 248.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 242.
+(Font)              scaled to size 10.42007pt on input line 248.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 242.
+(Font)              scaled to size 7.91925pt on input line 248.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 242.
+(Font)              scaled to size 10.42007pt on input line 248.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 242.
+(Font)              scaled to size 7.91925pt on input line 248.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 242.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 248.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <7.6> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 242.
- [2
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 248.
+ [3
 
-] [3
+] [4
 
 ]
+<./imgs/figure1.png, id=38, 565.11125pt x 426.59375pt>
+File: ./imgs/figure1.png Graphic file (type png)
+<use ./imgs/figure1.png>
+Package pdftex.def Info: ./imgs/figure1.png  used on input line 284.
+(pdftex.def)             Requested size: 251.34032pt x 189.73271pt.
 
-LaTeX Warning: File `./imgs/motiv_supply_reserves_assets.png' not found on input line 276.
-
-
-/Users/gisellelab/Work/Seminars/Hatfield and Wallen (2023)/HW_slides.tex:276: Package pdftex.def Error: File `./imgs/motiv_supply_reserves_assets.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.276       \end{frame}
-                       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \vbox (71.57727pt too high) detected at line 276
+Overfull \vbox (18.62573pt too high) detected at line 284
  []
 
-[4
+[5
 
-] [5
-
-] [6
+ <./imgs/figure1.png>] [6
 
 ] [7
 
 ] [8
 
-]
-
-LaTeX Warning: File `./imgs/illustrate_effect.png' not found on input line 387.
-
-
-/Users/gisellelab/Work/Seminars/Hatfield and Wallen (2023)/HW_slides.tex:387: Package pdftex.def Error: File `./imgs/illustrate_effect.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.387       \end{frame}
-                       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \vbox (58.13058pt too high) detected at line 387
- []
-
-[9
+] [9
 
 ] [10
 
-] [11
+]
+/Users/gisellelab/Work/Seminars/Hatfield and Wallen (2023)/HW_slides.tex:415: Missing { inserted.
+<to be read again> 
+                   ^
+l.415 \end{frame}
+                 
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
 
-] [12
+/Users/gisellelab/Work/Seminars/Hatfield and Wallen (2023)/HW_slides.tex:415: Missing } inserted.
+<inserted text> 
+                }
+l.415 \end{frame}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+LaTeX Font Info:    Trying to load font information for U+fplmbb on input line 415.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ufplmbb.fd
+File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
+) [11
+
+]
+/Users/gisellelab/Work/Seminars/Hatfield and Wallen (2023)/HW_slides.tex:415: Missing { inserted.
+<to be read again> 
+                   ^
+l.415 \end{frame}
+                 
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+/Users/gisellelab/Work/Seminars/Hatfield and Wallen (2023)/HW_slides.tex:415: Missing } inserted.
+<inserted text> 
+                }
+l.415 \end{frame}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[12
 
 ] [13
 
-]
-Overfull \vbox (7.01729pt too high) detected at line 478
- []
+] [14
 
-[14
-
-]
-
-LaTeX Warning: File `./imgs/summary_statistics.png' not found on input line 496.
-
-
-/Users/gisellelab/Work/Seminars/Hatfield and Wallen (2023)/HW_slides.tex:496: Package pdftex.def Error: File `./imgs/summary_statistics.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.496       \end{frame}
-                       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \vbox (166.85614pt too high) detected at line 496
- []
-
-[15
+] [15
 
 ] [16
 
-] [17
+]
+Overfull \vbox (16.40562pt too high) detected at line 493
+ []
+
+[17
 
 ] [18
 
 ] [19
 
-]
-
-LaTeX Warning: File `./imgs/second_stage_demand.png' not found on input line 584.
-
-
-/Users/gisellelab/Work/Seminars/Hatfield and Wallen (2023)/HW_slides.tex:584: Package pdftex.def Error: File `./imgs/second_stage_demand.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.584       \end{frame}
-                       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \vbox (180.45615pt too high) detected at line 584
- []
-
-[20
+] [20
 
 ]
+<./imgs/figure8.png, id=137, 661.47125pt x 404.51125pt>
+File: ./imgs/figure8.png Graphic file (type png)
+<use ./imgs/figure8.png>
+Package pdftex.def Info: ./imgs/figure8.png  used on input line 535.
+(pdftex.def)             Requested size: 303.3395pt x 185.49722pt.
+ [21
 
-LaTeX Warning: File `./imgs/outsideoption.png' not found on input line 610.
+ <./imgs/figure8.png>]
+<./imgs/figure9.png, id=144, 682.55pt x 418.56375pt>
+File: ./imgs/figure9.png Graphic file (type png)
+<use ./imgs/figure9.png>
+Package pdftex.def Info: ./imgs/figure9.png  used on input line 551.
+(pdftex.def)             Requested size: 303.3395pt x 186.02077pt.
+ [22
 
-
-/Users/gisellelab/Work/Seminars/Hatfield and Wallen (2023)/HW_slides.tex:610: Package pdftex.def Error: File `./imgs/outsideoption.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.610           \end{frame}
-                           
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \vbox (68.24443pt too high) detected at line 610
- []
-
-[21
-
-] [22
-
-] [23
-
-] [24
-
-] [25
+ <./imgs/figure9.png>] [23
 
 ]
-pdfTeX warning (ext4): destination with the same identifier (name{cost}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.696     \end{frame}
-                     
-
-LaTeX Warning: File `./imgs/cost_main.png' not found on input line 696.
-
-
-/Users/gisellelab/Work/Seminars/Hatfield and Wallen (2023)/HW_slides.tex:696: Package pdftex.def Error: File `./imgs/cost_main.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.696     \end{frame}
-                     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 696.
-(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 573.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
-)
-Overfull \vbox (190.06938pt too high) detected at line 696
- []
-
-[26
-
-] [27
+) [24
 
 ]
+<./imgs/table1.png, id=162, 621.32124pt x 372.39125pt>
+File: ./imgs/table1.png Graphic file (type png)
+<use ./imgs/table1.png>
+Package pdftex.def Info: ./imgs/table1.png  used on input line 594.
+(pdftex.def)             Requested size: 281.67096pt x 168.81891pt.
 
-LaTeX Warning: File `./imgs/counterf_results.png' not found on input line 719.
-
-
-/Users/gisellelab/Work/Seminars/Hatfield and Wallen (2023)/HW_slides.tex:719: Package pdftex.def Error: File `./imgs/counterf_results.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.719       \end{frame}
-                       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \vbox (259.9605pt too high) detected at line 719
+Overfull \vbox (13.92857pt too high) detected at line 594
  []
 
-[28
+[25
+
+ <./imgs/table1.png>]
+<./imgs/figure6.png, id=170, 784.9325pt x 543.02875pt>
+File: ./imgs/figure6.png Graphic file (type png)
+<use ./imgs/figure6.png>
+Package pdftex.def Info: ./imgs/figure6.png  used on input line 617.
+(pdftex.def)             Requested size: 216.67201pt x 149.89265pt.
+ [26
+
+ <./imgs/figure6.png>]
+<./imgs/table2.png, id=177, 696.6025pt x 441.65pt>
+File: ./imgs/table2.png Graphic file (type png)
+<use ./imgs/table2.png>
+Package pdftex.def Info: ./imgs/table2.png  used on input line 634.
+(pdftex.def)             Requested size: 294.67076pt x 186.81932pt.
+ [27
+
+ <./imgs/table2.png>] [28
 
 ]
+<./imgs/table3.png, id=189, 585.18625pt x 533.995pt>
+File: ./imgs/table3.png Graphic file (type png)
+<use ./imgs/table3.png>
+Package pdftex.def Info: ./imgs/table3.png  used on input line 668.
+(pdftex.def)             Requested size: 238.34053pt x 217.489pt.
 
-LaTeX Warning: File `./imgs/counterf_figure.png' not found on input line 736.
-
-
-/Users/gisellelab/Work/Seminars/Hatfield and Wallen (2023)/HW_slides.tex:736: Package pdftex.def Error: File `./imgs/counterf_figure.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.736       \end{frame}
-                       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \vbox (66.70726pt too high) detected at line 736
+Overfull \vbox (4.51807pt too high) detected at line 668
  []
 
 [29
 
-] [30
+ <./imgs/table3.png>]
+<./imgs/figure7.png, id=196, 666.49pt x 504.88625pt>
+File: ./imgs/figure7.png Graphic file (type png)
+<use ./imgs/figure7.png>
+Package pdftex.def Info: ./imgs/figure7.png  used on input line 687.
+(pdftex.def)             Requested size: 238.34053pt x 180.54938pt.
 
-] [31
-
-] [32
-
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\translate ' on input line 772.
-
-
-LaTeX Warning: File `./imgs/first_stage_demand.png' not found on input line 787.
-
-
-/Users/gisellelab/Work/Seminars/Hatfield and Wallen (2023)/HW_slides.tex:787: Package pdftex.def Error: File `./imgs/first_stage_demand.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.787       \end{frame}
-                       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \vbox (114.836pt too high) detected at line 787
+Overfull \vbox (8.96936pt too high) detected at line 687
  []
 
-[33
+[30
+
+ <./imgs/figure7.png>] [31
 
 ]
+<./imgs/figure4.png, id=209, 1013.7875pt x 415.5525pt>
+File: ./imgs/figure4.png Graphic file (type png)
+<use ./imgs/figure4.png>
+Package pdftex.def Info: ./imgs/figure4.png  used on input line 712.
+(pdftex.def)             Requested size: 390.00697pt x 159.86455pt.
+ [32
 
-LaTeX Warning: File `./imgs/cost_iv_regs.png' not found on input line 802.
+ <./imgs/figure4.png>] [33
 
+] [34
 
-/Users/gisellelab/Work/Seminars/Hatfield and Wallen (2023)/HW_slides.tex:802: Package pdftex.def Error: File `./imgs/cost_iv_regs.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.802           \end{frame}
-                           
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \vbox (166.85614pt too high) detected at line 802
- []
-
-[34
+] [35
 
 ]
 \tf@nav=\write6
@@ -1305,21 +1216,21 @@ Package rerunfilecheck Warning: File `HW_slides.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `HW_slides.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  2D6EE85E846F80FB18DA9DA698E9D5BC;217.
+(rerunfilecheck)             After:  4618A17DB70B457825E00FD157040BBA;136.
  ) 
 Here is how much of TeX's memory you used:
- 31678 strings out of 478268
- 676873 string characters out of 5846347
- 1002409 words of memory out of 5000000
- 49048 multiletter control sequences out of 15000+600000
- 517756 words of font info for 128 fonts, out of 8000000 for 9000
+ 31323 strings out of 478268
+ 664694 string characters out of 5846347
+ 1002581 words of memory out of 5000000
+ 48726 multiletter control sequences out of 15000+600000
+ 519143 words of font info for 138 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,15n,122p,474b,629s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on HW_slides.pdf (34 pages, 151279 bytes).
+ 128i,11n,122p,474b,471s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
+Output written on HW_slides.pdf (35 pages, 823256 bytes).
 PDF statistics:
- 294 PDF objects out of 1000 (max. 8388607)
- 222 compressed objects within 3 object streams
- 79 named destinations out of 1000 (max. 500000)
- 47 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 306 PDF objects out of 1000 (max. 8388607)
+ 215 compressed objects within 3 object streams
+ 74 named destinations out of 1000 (max. 500000)
+ 92 words of extra memory for PDF output out of 10000 (max. 10000000)
 

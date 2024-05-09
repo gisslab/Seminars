@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.15)  30 NOV 2023 00:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.15)  30 NOV 2023 13:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1090,7 +1090,7 @@ my insertion and my current dilemma will both disappear.
 ] [16
 
 ]
-Overfull \vbox (16.40562pt too high) detected at line 493
+Overfull \vbox (19.25055pt too high) detected at line 493
  []
 
 [17
@@ -1099,101 +1099,144 @@ Overfull \vbox (16.40562pt too high) detected at line 493
 
 ] [19
 
-] [20
-
 ]
-<./imgs/figure8.png, id=137, 661.47125pt x 404.51125pt>
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 533.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 533.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 533.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 533.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 533.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <7> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 533.
+<./imgs/figure8.png, id=132, 661.47125pt x 404.51125pt>
 File: ./imgs/figure8.png Graphic file (type png)
 <use ./imgs/figure8.png>
-Package pdftex.def Info: ./imgs/figure8.png  used on input line 535.
-(pdftex.def)             Requested size: 303.3395pt x 185.49722pt.
- [21
+Package pdftex.def Info: ./imgs/figure8.png  used on input line 533.
+(pdftex.def)             Requested size: 281.67096pt x 172.24522pt.
+ [20
 
  <./imgs/figure8.png>]
-<./imgs/figure9.png, id=144, 682.55pt x 418.56375pt>
+<./imgs/figure9.png, id=139, 682.55pt x 418.56375pt>
 File: ./imgs/figure9.png Graphic file (type png)
 <use ./imgs/figure9.png>
 Package pdftex.def Info: ./imgs/figure9.png  used on input line 551.
-(pdftex.def)             Requested size: 303.3395pt x 186.02077pt.
- [22
+(pdftex.def)             Requested size: 281.67096pt x 172.72992pt.
+ [21
 
- <./imgs/figure9.png>] [23
+ <./imgs/figure9.png>] [22
+
+] [23
+
+] [24
+
+] [25
 
 ]
-LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 573.
+LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 600.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
-) [24
+) [26
 
 ]
-<./imgs/table1.png, id=162, 621.32124pt x 372.39125pt>
-File: ./imgs/table1.png Graphic file (type png)
-<use ./imgs/table1.png>
-Package pdftex.def Info: ./imgs/table1.png  used on input line 594.
-(pdftex.def)             Requested size: 281.67096pt x 168.81891pt.
+<./imgs/figure5a.png, id=173, 596.2275pt x 463.7325pt>
+File: ./imgs/figure5a.png Graphic file (type png)
+<use ./imgs/figure5a.png>
+Package pdftex.def Info: ./imgs/figure5a.png  used on input line 614.
+(pdftex.def)             Requested size: 281.67096pt x 219.07938pt.
 
-Overfull \vbox (13.92857pt too high) detected at line 594
+Overfull \vbox (6.10844pt too high) detected at line 614
  []
 
-[25
+[27
 
- <./imgs/table1.png>]
-<./imgs/figure6.png, id=170, 784.9325pt x 543.02875pt>
-File: ./imgs/figure6.png Graphic file (type png)
-<use ./imgs/figure6.png>
-Package pdftex.def Info: ./imgs/figure6.png  used on input line 617.
-(pdftex.def)             Requested size: 216.67201pt x 149.89265pt.
- [26
+ <./imgs/figure5a.png>]
+<./imgs/figure5b.png, id=180, 569.12625pt x 381.425pt>
+File: ./imgs/figure5b.png Graphic file (type png)
+<use ./imgs/figure5b.png>
+Package pdftex.def Info: ./imgs/figure5b.png  used on input line 627.
+(pdftex.def)             Requested size: 281.67096pt x 188.77975pt.
+ [28
 
- <./imgs/figure6.png>]
-<./imgs/table2.png, id=177, 696.6025pt x 441.65pt>
-File: ./imgs/table2.png Graphic file (type png)
-<use ./imgs/table2.png>
-Package pdftex.def Info: ./imgs/table2.png  used on input line 634.
-(pdftex.def)             Requested size: 294.67076pt x 186.81932pt.
- [27
+ <./imgs/figure5b.png>]
+<./imgs/table1.png, id=187, 621.32124pt x 372.39125pt>
+File: ./imgs/table1.png Graphic file (type png)
+<use ./imgs/table1.png>
+Package pdftex.def Info: ./imgs/table1.png  used on input line 650.
+(pdftex.def)             Requested size: 281.67096pt x 168.81891pt.
 
- <./imgs/table2.png>] [28
-
-]
-<./imgs/table3.png, id=189, 585.18625pt x 533.995pt>
-File: ./imgs/table3.png Graphic file (type png)
-<use ./imgs/table3.png>
-Package pdftex.def Info: ./imgs/table3.png  used on input line 668.
-(pdftex.def)             Requested size: 238.34053pt x 217.489pt.
-
-Overfull \vbox (4.51807pt too high) detected at line 668
+Overfull \vbox (3.1889pt too high) detected at line 650
  []
 
 [29
 
- <./imgs/table3.png>]
-<./imgs/figure7.png, id=196, 666.49pt x 504.88625pt>
-File: ./imgs/figure7.png Graphic file (type png)
-<use ./imgs/figure7.png>
-Package pdftex.def Info: ./imgs/figure7.png  used on input line 687.
-(pdftex.def)             Requested size: 238.34053pt x 180.54938pt.
+ <./imgs/table1.png>]
+<./imgs/figure6.png, id=194, 784.9325pt x 543.02875pt>
+File: ./imgs/figure6.png Graphic file (type png)
+<use ./imgs/figure6.png>
+Package pdftex.def Info: ./imgs/figure6.png  used on input line 673.
+(pdftex.def)             Requested size: 216.67201pt x 149.89265pt.
+ [30
 
-Overfull \vbox (8.96936pt too high) detected at line 687
- []
+ <./imgs/figure6.png>]
+<./imgs/table2.png, id=201, 696.6025pt x 441.65pt>
+File: ./imgs/table2.png Graphic file (type png)
+<use ./imgs/table2.png>
+Package pdftex.def Info: ./imgs/table2.png  used on input line 690.
+(pdftex.def)             Requested size: 294.67076pt x 186.81932pt.
+ [31
 
-[30
-
- <./imgs/figure7.png>] [31
-
-]
-<./imgs/figure4.png, id=209, 1013.7875pt x 415.5525pt>
-File: ./imgs/figure4.png Graphic file (type png)
-<use ./imgs/figure4.png>
-Package pdftex.def Info: ./imgs/figure4.png  used on input line 712.
-(pdftex.def)             Requested size: 390.00697pt x 159.86455pt.
+ <./imgs/table2.png>]
+File: ./imgs/table2.png Graphic file (type png)
+<use ./imgs/table2.png>
+Package pdftex.def Info: ./imgs/table2.png  used on input line 707.
+(pdftex.def)             Requested size: 294.67076pt x 186.81932pt.
  [32
 
- <./imgs/figure4.png>] [33
+] [33
 
-] [34
+]
+<./imgs/table3.png, id=219, 585.18625pt x 533.995pt>
+File: ./imgs/table3.png Graphic file (type png)
+<use ./imgs/table3.png>
+Package pdftex.def Info: ./imgs/table3.png  used on input line 740.
+(pdftex.def)             Requested size: 238.34053pt x 217.489pt.
 
-] [35
+Overfull \vbox (4.51807pt too high) detected at line 740
+ []
+
+[34
+
+ <./imgs/table3.png>]
+<./imgs/figure7.png, id=226, 666.49pt x 504.88625pt>
+File: ./imgs/figure7.png Graphic file (type png)
+<use ./imgs/figure7.png>
+Package pdftex.def Info: ./imgs/figure7.png  used on input line 759.
+(pdftex.def)             Requested size: 238.34053pt x 180.54938pt.
+
+Overfull \vbox (8.96936pt too high) detected at line 759
+ []
+
+[35
+
+ <./imgs/figure7.png>] [36
+
+]
+<./imgs/figure4.png, id=238, 1013.7875pt x 415.5525pt>
+File: ./imgs/figure4.png Graphic file (type png)
+<use ./imgs/figure4.png>
+Package pdftex.def Info: ./imgs/figure4.png  used on input line 784.
+(pdftex.def)             Requested size: 390.00697pt x 159.86455pt.
+ [37
+
+ <./imgs/figure4.png>] [38
+
+] [39
+
+] [40
 
 ]
 \tf@nav=\write6
@@ -1219,18 +1262,18 @@ Package rerunfilecheck Info: Checksums for `HW_slides.out':
 (rerunfilecheck)             After:  4618A17DB70B457825E00FD157040BBA;136.
  ) 
 Here is how much of TeX's memory you used:
- 31323 strings out of 478268
- 664694 string characters out of 5846347
- 1002581 words of memory out of 5000000
- 48726 multiletter control sequences out of 15000+600000
- 519143 words of font info for 138 fonts, out of 8000000 for 9000
+ 31415 strings out of 478268
+ 666161 string characters out of 5846347
+ 1002583 words of memory out of 5000000
+ 48795 multiletter control sequences out of 15000+600000
+ 535871 words of font info for 173 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,11n,122p,474b,471s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on HW_slides.pdf (35 pages, 823256 bytes).
+Output written on HW_slides.pdf (40 pages, 1658816 bytes).
 PDF statistics:
- 306 PDF objects out of 1000 (max. 8388607)
- 215 compressed objects within 3 object streams
- 74 named destinations out of 1000 (max. 500000)
- 92 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 339 PDF objects out of 1000 (max. 8388607)
+ 239 compressed objects within 3 object streams
+ 84 named destinations out of 1000 (max. 500000)
+ 102 words of extra memory for PDF output out of 10000 (max. 10000000)
 

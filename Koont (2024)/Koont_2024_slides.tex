@@ -321,9 +321,9 @@ Effects on Competition and Stability}} %, Rate Dispersion and Profits in
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.99\textwidth]{imgs/fig3.png}
+    \includegraphics[width=0.65\textwidth]{imgs/fig1.png}
     % \caption*{Caption}
-    \label{fig:my_label}
+    % \label{fig:my_label}
 \end{figure}
 
 \end{frame}
@@ -339,7 +339,7 @@ $$
 %The variable counties $_{g t}$ is the total number of active counties across banks in size group $g$ in year $t$. The intensive margin component measures changes in the number of branches per active county for banks in
     \begin{figure}
         \centering
-        \includegraphics[width=0.92\textwidth]{imgs/fig4.png}
+        \includegraphics[width=0.92\textwidth]{imgs/fig3.png}
         %\caption*{Caption}
         \label{fig:my_label}
     \end{figure}
@@ -349,27 +349,302 @@ $$
     \begin{frame}{Basic Pattern: Large banks use more wholesale funding}
 
         % Figure 6b documents the distribution of wholesale funding exposure, WFE, across banks in each size bin. We measure WFE as the ratio of a bank's wholesale funds to their retail deposits, that is, ${ }^{23}$
-Wholesale funding exposure, WFE, across banks in each size bin:
-        $$WFE_{bt} = \frac{FF_{bt} + TD_{bt} + BrokD_{bt}}{\text{Retail Deposits}_{bt}}$$
+% Wholesale funding exposure, WFE, across banks in each size bin:
+        % $$WFE_{bt} = \frac{FF_{bt} + TD_{bt} + BrokD_{bt}}{\text{Retail Deposits}_{bt}}$$
         
         \begin{figure}
             \centering
-            \includegraphics[width=0.9\textwidth]{imgs/fig6.png}
-            \caption*{ The use of wholesale funds across the bank size distribution in 1984.}
+            \includegraphics[width=0.8\textwidth]{imgs/fig4.png}
+            % \caption*{ The use of wholesale funds across the bank size distribution in 1984.}
             \label{fig:my_label}
         \end{figure}
         
         \end{frame}
+
+% ********************************************************************************************************************
+\begin{frame}[noframenumbering]
+
+    % {Evidence of Sorting}   
+    \huge \centering \textcolor{blue}{Evidence of Sorting}
+\end{frame}
+
+\begin{frame}{Evidence of spatial sorting}
+
+% \begin{wideitemize}
+
+    \begin{wideitemize}
+        %How did this expansion affect spatial sorting patterns? 
+        \item Largest banks were in the densest counties in 1981.
+        \item Relative sorting: banks in group sort across space.
+        \item Absolute sorting: changes in bank size with county density.
+        % \item Top 1\% of banks grew in the least dense counties, but lost branch share in the least dense counties.
+\end{wideitemize}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.99\textwidth]{imgs/fig5.png}
+%\caption*{Caption}
+\label{fig:my_label}
+\end{figure}
+
+\end{frame}
+
+
+
+\begin{frame}{Evidence of spatial sorting}
+
+\begin{wideitemize}
+\item Define the average local population density of bank $j$ in state $s$ in year $t$ to be
+
+$$
+\begin{aligned}
+    Z_b & \equiv \sum_c \text { Shares }_{b, c} \cdot \text { Shocks }_c \\
+    \text { Shocks }_c & \equiv \text { AT\&T }_c \\
+    \text { Shares }_{b, c} & \equiv \frac{\text { Deposit Share }_{b, c} \cdot \text { Population }_c}{\sum_c \text { Deposit Share }_{b, c} \cdot \text {Population }_c}
+    \end{aligned}
+$$
+
+% where Density ${ }_{c t}$ is the population density of county $c$ in year $t, \mathcal{C}_s$ is the set of counties in state $s$, and $b_{j c t}$ is the number of branches of bank $j$ in county $c$ in year $t$. %We focus on sorting patterns within a given state in a given year. 
+
+\item  Main regression specification is
+$$
+\begin{aligned}
+    \text { Digital }_{b, t} & =\delta_1 Z_b+\delta_2 \text { Coverage }_b+\delta_3 X_{b, t}+\eta_{b, t} \\
+    \mathrm{Y}_{b, t} & =\beta_1{\widehat{\text { Digital }_{b, t}}}^{+\beta_2 \text { Coverage }_b+\beta_3 X_{b, t}+\varepsilon_{b, t}}
+    \end{aligned}
+$$
+% where $\operatorname{Size}_{j t}$ is measured as log deposits of bank $j$ at time $t$ across all of its bank branches. 
+
+% \item[$\rightarrow$] $\beta>0$ coefficient is evidence of \textcolor{blue}{span-of-control sorting}.
+
+% \item[$\rightarrow$] Larger banks are located disproportionately in dense counties.
+
+\end{wideitemize}
+%${ }^{38}$ We interpret a positive $\beta$ coefficient as evidence of span-of-control sorting, i.e. larger banks are located disproportionately in dense counties. Note that standard heterogeneous firm models, as in Melitz (2003), imply exactly the opposite. In those models, it is the productive firms that sell in the more marginal markets, which would imply a negative $\beta$ coefficient.
+\end{frame}
+
+\begin{frame}{ATT Coverage as instrument}
+
+% crete two cols 
+
+
+\begin{columns}[T]
+    
+    \begin{column}{0.5\textwidth}
+    
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.95\textwidth]{imgs/tab1.png}
+        % \caption*{ Standard errors  
+        % are two-way clustered at the state and bank level.}
+        \label{fig:my_label}
+    \end{figure}
+
+\end{column}
+\begin{column}{0.5\textwidth}
+    
+
+    \begin{wideitemize}
+        \item \textcolor{blue}{Table 1:} 
+        \begin{wideitemize}
+            \item $\beta>0$ coefficient is evidence of \textcolor{blue}{span-of-control sorting}.
+            \item Larger banks are located disproportionately in dense counties.
+        \end{wideitemize}
+    \end{wideitemize}
+\end{column}
+\end{columns}
+
+
+\end{frame}
+
+
+
+\begin{frame}{Bank Geographic expansion and digitalization}
+% the sample to banks that are active in two or more counties to avoid headquarters location biases. 
+
+\begin{wideitemize}
+\item   $\operatorname{dist}_{j s}^q=\mathbf{1}\left\{\log \left(\operatorname{dist}_{j s}\right)\right.$ in quartile $\left.q\right\}$ for $q=2,3,4$ and dist $_{j s}$ to be the avg dist. to HQ.  %We estimate the regression
+% \item %Define dist $_{j s}$ to be the average distance from bank $j$ 's headquarter county to its branches in state $s$, and
+% $$
+% \log (\text { Density })_{j s t}=\beta \operatorname{Size}_{j t}+\sum_{q=2}^4 \theta_q \operatorname{dist}_{j s}^q+\sum_{q=2}^4 \beta_q \operatorname{Size}_{j t} \times \operatorname{dist}_{j s}^q+\gamma_{s t}+\varepsilon_{j s t} .
+% $$
+% \item Sorting declines with distance and faraway banks are in more dense counties. 
+
+\end{wideitemize}
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{imgs/tab2.png}
+\caption*{Changes in relative and absolute sorting patterns between 1981 and 2006 for
+four bank-size bins.\\ (a) Sorting interaction coefficients. (b) Distance coefficients.}
+% (b) Distance coefficients.}
+\label{fig:my_label}
+\end{figure}
+
+% \begin{itemize}
+
+% \end{itemize}
+
+
+
+\end{frame}
+
+
+\begin{frame}{Evidence of spatial sorting}
+
+
+\begin{wideitemize}
+\item Bla bla example slides with colors
+% $$
+% \log \left(\mathbb{E}\left[\operatorname{Branches}_{j c t}\right]\right)=\underbrace{\delta \operatorname{Size}_{j t} \times \log \left(\operatorname{Density}_{c t}\right)}_{\text {sorting motives }}+\underbrace{\theta \log \left(\operatorname{Miles}_{j c}\right)}_{\text {distance effect }}+\gamma_{c t}+\gamma_{j t}+\varepsilon_{j c t} .
+% $$
+
+% \begin{wideitemize}
+% \item where Branches $_{j c t}$ is the total number of branches of bank $j$ in county $c$ in year $t$,
+% \item Miles${ }_{j c}$ is the distance in miles from centroid of bank $j$ 's headquarter county and the centroid of $c$. 
+% \item Standardize both bank size and log county population density.
+
+
+% \end{wideitemize}
+
+% \item[$\rightarrow$] $\delta>0$ coefficient is evidence of \textcolor{blue}{span-of-control sorting}.
+% \item[$\rightarrow$] Larger banks have more branches, but especially so in dense counties.
+
+\end{wideitemize}
+
+\end{frame}
+
+\begin{frame}{Evidence of spatial sorting}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.65\textwidth]{imgs/tab3.png}
+    % \caption*{Heteroscedasticity-robust standard
+    % errors are reported in parentheses}
+    % \label{fig:my_label}
+\end{figure}
+
+\end{frame}
+
+
+\begin{frame}{Sorting over time and impact of deregulation}
+    \begin{wideitemize}
+        %How did this expansion affect spatial sorting patterns? 
+        \item Top 1\% of banks grew in the densest counties, but lost branch share in the most dense counties. 
+        % \item Top 1\% of banks grew in the least dense counties, but lost branch share in the least dense counties.
+\end{wideitemize}
+
+\begin{figure}
+\centering
+\begin{minipage}{0.9\textwidth}
+    {\footnotesize
+    Controls include establishments, employment, payroll, deposit, loan growth and year fixed effects.}
+    \end{minipage}
+\includegraphics[width=0.85\textwidth]{imgs/tab4.png}
+% \caption*{
+%     % Pattern cheange between 1981 and 2006 by county density and bank size. 
+
+% }
+
+% notes here
+\end{figure}
+\end{frame}
+
+\begin{frame}{Sorting over time and impact of deregulation}\label{sorting_time}
+% to study this empirical finding in more detail. In particular, we explore how sorting changed over time using our regression analysis. We begin by estimating equation (17) year by year to allow the sorting coefficient to vary over time. Namely, we estimate
+\begin{itemize}
+\item Decline in relative sorting patterns until 1998.  %, after which the sorting estimates plateau.
+% button to stag time 
+\hyperlink{stag_time}{\beamerbutton{Staggered changes}}
+
+$$
+\log (\text { Density })_{j s t}=\beta_t \text { Size }_{j t}+\gamma_{s t}+\varepsilon_{j s t}, \quad t=1981, \ldots, 2006 .
+$$
+\end{itemize}
+
+% Figure 10a shows the evolution of the density-size sorting elasticity over time. There is a consistent decline in relative sorting patterns until 1998, after which the sorting estimates plateau. The decline is significant: the coefficient falls from 0.37 in 1981 to an average of 0.22 after 1998.
+
+% Figure 10b connects the decline in sorting to geographic deregulation. We plot the estimated sorting coefficient from equation (20) against the average number of reciprocal agreements per state in a given year. There is a clear negative trend: in the early stages of deregulation, sorting estimates are clustered around 0.33 . As the deregulation picked up, there is a clear decline, culminating at the 0.22 level following the passage of the IBBEA, when all states deregulated fully.
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth]{imgs/tab5.png}
+\caption*{Sorting coefficients $\beta_t$ between 1981 and 2006.}
+\label{fig:my_label}
+\end{figure}
+
+\end{frame}
+
+
+
+\begin{frame}{Effect on bank insured deposit ratio}
+    \begin{itemize}
+        \item conclusions of table here
+    \end{itemize}
+
+    \begin{figure}
+    \centering
+    \includegraphics[width=0.4\textwidth]{imgs/tab6.png}
+    %\caption*{Caption}
+    % \label{fig:my_label}
+    % \caption*{Standard errors are two-way clustered at the state and bank level.}
+    \end{figure}
+
+\end{frame}
+
+\begin{frame}{Bank Low Income Mortgages in New Counties}
+
+
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.5\textwidth]{imgs/tab7.png}
+        %\caption*{Caption}
+        % \label{fig:my_label}
+    \end{figure}
+    
+\end{frame}
+
+\begin{frame}{Loan Activity in New Counties}
+
+
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.875\textwidth]{imgs/tab8.png}
+    \end{figure}
+    
+\end{frame}
+
+
+
+% * Possible summary slide with evidence
+% \begin{frame}{Connecting mismatch sorting to the level of wholesale funding}\label{mismatch_sorting}
+
+% \vspace{0.1cm}
+
+% \textcolor{blue}{Mismatch sorting:} Banks choose locations based on the match of the location's characteristics to the funding needs.
+% %! Summary of the results
+% \begin{wideitemize}
+%     \item Denser locations are less deposit intensive \hyperlink{mismatch_sorting1}{\beamerbutton{Regression}}
+    
+%     \item Banks that were headquartered in counties with more loan opportunities used more wholesale funding in 1984. 
+%     \hyperlink{mismatch_sorting2}{\beamerbutton{Regression}}
+    
+%     \item Banks with more exposure to wholesale funding expanded into locations that were deposit-abundant.
+%     \hyperlink{mismatch_sorting3}{\beamerbutton{Poisson regression}}
+
+% \end{wideitemize}
+    
+        
+%         \end{frame}
+
 % ********************************************************************************************************************
 
 
 \begin{frame}[noframenumbering]
 
-\huge \centering \textcolor{blue}{A Spatial Theory of Banking}
+\huge \centering \textcolor{blue}{Model Framework}
 
 \end{frame}
     
-\begin{frame}{Households}
+\begin{frame}{Demand for banking services: Deposits}
 
     \begin{wideitemize}
         \item  Each location $\ell$ is composed of a set households $I_{\ell}$.
@@ -403,74 +678,86 @@ Q_{j \ell}^L=\bar{Q}_j^L J_{j \ell}^L \phi_{j \ell},
 
 \end{frame}
 
-\begin{frame}{ Households}
+\begin{frame}{ Demand for banking services: Deposits}
 
     \begin{wideitemize}
 
-        \item Given all banks' location choices and interest rate choices, the \textbf{residual demands} are:
-        \begin{equation}D_{j \ell}=T^D\left(\delta_{o_{j \ell}^D, \ell}\right) Q_{j \ell}^D A_{\ell}^D \mathcal{D}\left(r_{j, o_{j \ell}^D}^D\right)
-        \end{equation}
-        \begin{equation} L_{j \ell}=T^L\left(\delta_{o_{j \ell}^L, \ell}\right) Q_{j \ell}^L A_{\ell}^L \mathcal{L}\left(r_{j, o_{j \ell}^L}^L\right) \end{equation}
-
-        \begin{wideitemize}
-            \item $Q_{j \ell}^D$ and $Q_{j \ell}^L$ are common taste for bank $j$ deposit and loan services,
-            \item $T^D(\delta)$ and $T^L(\delta)$ are decreasing functions of distance $\delta$,
-            \item $A_{\ell}^D$ and $A_{\ell}^L$ are local demand shifters common to all banks (local population, local demand for deposits/loans, and local price levels/competition), 
+        \item Consumers choose to deposit insured deposits in bank $j$  and maximize utility:
         
-            \item $\mathcal{D}\left(r_{j, o_{j \ell}^D}^D\right)$ and $\mathcal{L}\left(r_{j, o_{j \ell}^L}^L\right)$ is the impact of interest rates on demand.
-            
-            % summarizes the impact of interest rates on household-level demand for deposits and loans, incorporating both the impact of the interest rate on the probability of choosing to use a particular bank and on the amount of deposits and loans conditional on choosing that bank.
+        $$
+        \max _{b \in B} \quad \mu_{i b}=\underbrace{\alpha_{D I}^R R_b^{D I}+\alpha_{D I}^N N_b+\alpha_{D I}^{O, S} O_b S_b+\alpha_{D I}^{\ominus} \Theta_b+\xi_{i b}}_{\equiv \alpha_{D I} X_b}+\varepsilon_{i b}
+        $$
 
-        \end{wideitemize}
+        \begin{itemize}
+            \item $R_b^{D I}$ is the interest rate on bank $b$ for insured deposits,
+            \item $N_b$ is the number of branches of bank $b$,
+            \item $O_b$ is the dummy for banks digital platform,
+            \item $S_b$ is the size of bank $b$,
+            \item $\Theta_b$ are other bank characteristics,
+            \item $\xi_{i b}$ is the structural error term,
+            \item $\varepsilon_{i b}$ is the idiosyncratic taste for bank $b$ that distributes as a T1EV.
+        \end{itemize}
 
+     $$   Q_b^{D I}=M^{D I} \cdot s_b^{D I}=M^{D I} \cdot \frac{\exp \left(\alpha_{D I} X_b\right)}{1+\sum_{b^{\prime} \in \mathcal{B}} \exp \left(\alpha_{D I} X_{b^{\prime}}\right)},$$
+\item Similar demands for uninsured deposits $DU$.
     \end{wideitemize}
 
 
     \end{frame}
 
-\begin{frame}{ Households}
+    \begin{frame}{ Demand for banking services: Loans}
 
-    \begin{wideitemize}
+        \begin{wideitemize}
+    
+            \item Consumers $H$ choose to mortgage in bank $j$  and maximize utility:
+            
+            $$
+            \max _{b \in B_c} \quad \mu_{i b c}=\underbrace{\alpha_H^R R_{b c}^H+\alpha_H^N N_{b c}+\alpha_H^O O_b+\alpha_H^{\Theta} \Theta_{b c}+\xi_{i b}}_{\equiv \alpha_H X_{b c}}+\varepsilon_{i b m}
+            $$
+    
+            \begin{itemize}
+                \item $R_{b c}^H$ is the interest rate on bank $b$ for mortgage in county $c$,
+                \item $N_{b c}$ is the number of branches of bank $b$ in county $c$,
+                \item $O_b$ is the dummy for banks digital platform,
+                \item $\Theta_{b c}$ are other bank characteristics,
+                \item $\xi_{i b}$ is the structural error term,
+                \item $\varepsilon_{i b}$ is the idiosyncratic taste for bank $b$ that distributes as a T1EV.
+                \item $\varepsilon_{i b m}$ is the idiosyncratic taste for bank $b$ that distributes as a T1EV.
+            \end{itemize}
+    
+         $$  Q_{b c}^H=M_c^H \cdot s_{b c}^H=M_c^H \cdot \frac{\exp \left(\alpha_H X_{b c}\right)}{1+\sum_{b^{\prime} \in \mathcal{B}_c} \exp \left(\alpha_H X_{b^{\prime} c}\right)},$$
+    \item Similar demands for segment $L$.
+        \end{wideitemize}
+    
+    
+        \end{frame}
+
+        % * Nice slide with colored equations 
+% \begin{frame}{ Households}
+
+%     \begin{wideitemize}
         
 
-        \item Given all banks' location choices and interest rate choices, the \textbf{residual demands} are:
-        $$\begin{gathered}D_{j \ell}= \textcolor{blue}{T^D\left(\delta_{o_{j \ell}^D, \ell}\right)}  \textcolor{green}{Q_{j \ell}^D }\textcolor{red}{A_{\ell}^D} \mathcal{D}\left(r_{j, o_{j \ell}^D}^D\right) .\end{gathered}$$ %
-        % , \\ L_{j \ell}=T^L\left(\delta_{o_{j \ell}^L, \ell}\right) Q_{j \ell}^L A_{\ell}^L \mathcal{L}\left(r_{j, o_{j \ell}^L}^L\right)
+%         \item Given all banks' location choices and interest rate choices, the \textbf{residual demands} are:
+%         $$\begin{gathered}D_{j \ell}= \textcolor{blue}{T^D\left(\delta_{o_{j \ell}^D, \ell}\right)}  \textcolor{green}{Q_{j \ell}^D }\textcolor{red}{A_{\ell}^D} \mathcal{D}\left(r_{j, o_{j \ell}^D}^D\right) .\end{gathered}$$ %
+%         % , \\ L_{j \ell}=T^L\left(\delta_{o_{j \ell}^L, \ell}\right) Q_{j \ell}^L A_{\ell}^L \mathcal{L}\left(r_{j, o_{j \ell}^L}^L\right)
+
+%     \textcolor{blue}{Microfundation (Appendix)}:
+%     \vspace{0.3cm}
+%         \begin{wideitemize}
+%             \item From discrete choice model where households choose to bank and branch with idiosyncratic T1EV $\varepsilon_{ij}$. 
+% \begin{equation*}
+% D_{j \ell}  =\frac{e^{\eta\left[G^D\left(r_{j o_{j \ell}^D}^D\right)+ \textcolor{green}{\tilde{Q}_{j \ell}^D }\textcolor{blue}{-\tilde{T}^D\left(\delta_{\ell_{j \ell}^D}\right)}\right]}}{ \textcolor{red}{\sum_k e^{\eta\left[G^D\left(r_{k o_{k \ell}^D}^D\right)+\tilde{Q}_{k \ell}^D-\tilde{T}^D\left(\delta_{\ell_{k \ell}^D}\right)\right]}}}  \textcolor{red}{\int_{i \in I_{\ell}} \mathfrak{d}_i }\tilde{\mathcal{D}}\left(r_{j, o_{j \ell}^D}^D\right) \textcolor{red}{ d i }% \\
+% % L_{j \ell} & =\frac{e^{\eta\left[G^L\left(r_{j o_{j \ell}^L}^L\right)+\tilde{Q}_{j \ell}^L-\tilde{T}^L\left(\delta_{j o_{j \ell}^L}\right)\right]}}{P_{\ell}^L} \int_{i \in I_{\ell}} \mathfrak{l}_i \tilde{\mathcal{L}}\left(r_{j, o_{j \ell}^L}^L\right) d i
+% \end{equation*}
 
 
-
-    \textcolor{blue}{Microfundation (Appendix)}:
-    \vspace{0.3cm}
-        \begin{wideitemize}
-            \item From discrete choice model where households choose to bank and branch with idiosyncratic T1EV $\varepsilon_{ij}$. 
-\begin{equation*}
-D_{j \ell}  =\frac{e^{\eta\left[G^D\left(r_{j o_{j \ell}^D}^D\right)+ \textcolor{green}{\tilde{Q}_{j \ell}^D }\textcolor{blue}{-\tilde{T}^D\left(\delta_{\ell_{j \ell}^D}\right)}\right]}}{ \textcolor{red}{\sum_k e^{\eta\left[G^D\left(r_{k o_{k \ell}^D}^D\right)+\tilde{Q}_{k \ell}^D-\tilde{T}^D\left(\delta_{\ell_{k \ell}^D}\right)\right]}}}  \textcolor{red}{\int_{i \in I_{\ell}} \mathfrak{d}_i }\tilde{\mathcal{D}}\left(r_{j, o_{j \ell}^D}^D\right) \textcolor{red}{ d i }% \\
-% L_{j \ell} & =\frac{e^{\eta\left[G^L\left(r_{j o_{j \ell}^L}^L\right)+\tilde{Q}_{j \ell}^L-\tilde{T}^L\left(\delta_{j o_{j \ell}^L}\right)\right]}}{P_{\ell}^L} \int_{i \in I_{\ell}} \mathfrak{l}_i \tilde{\mathcal{L}}\left(r_{j, o_{j \ell}^L}^L\right) d i
-\end{equation*}
-% where $P_{\ell}^D$  $=$.
-
-% $$
-% \begin{aligned}
-% A_{\ell}^D & \equiv \frac{1}{P_{\ell}^D} \int_{i \in I_{\ell}} \mathfrak{d}_i d i \\
-% A_{\ell}^L & \equiv \frac{1}{P_{\ell}^L} \int_{i \in I_{\ell}} \mathfrak{l}_i d i \\
-% \mathcal{D}(r) & \equiv e^{\eta G^D(r)} \tilde{\mathcal{D}}(r) \\
-% \mathcal{L}(r) & \equiv e^{\eta G^L(r)} \tilde{\mathcal{L}}(r) \\
-% Q_{j \ell}^D & \equiv e^{\eta \tilde{Q}_{j \ell}^D} \\
-% Q_{j \ell}^L & \equiv e^{\eta \tilde{Q}_{j \ell}^L} \\
-% T^D(\delta) & =e^{-\eta \tilde{T}^D(\delta)} \\
-% T^L(\delta) & =e^{-\eta \tilde{T}^L(\delta)}
-% \end{aligned}
-% $$
-
-        \end{wideitemize}
+%         \end{wideitemize}
 
 
-        %where $Q_{j \ell}^D$ and $Q_{j \ell}^L$ denote common components of taste for bank $j$ deposit and loan services among households in $\ell$; $T^D(\delta)$ and $T^L(\delta)$ are decreasing functions of distance $\delta$ and summarize household distaste for distance to the bank branches it chooses for deposits and loans; ${ }^{25} A_{\ell}^D$ and $A_{\ell}^L$ are local demand shifters common to all banks which incorporate local population, local demand for deposits/loans, and local price levels/competition; $\mathcal{D}\left(r_j^D\right)$ and $\mathcal{L}\left(r_j^L\right)$ summarize the impact of interest rates on household level demand for deposits and loans, incorporating both the impact of the interest rate on the probability of choosing to use a particular bank and on the number of deposits and loans conditional on choosing that bank.
-        %We assume that $\mathcal{D}(\cdot)$ and $\mathcal{L}(\cdot)$ are twice continuously differentiable, that $\mathcal{D}(\cdot)$ is strictly increasing and
+%     \end{wideitemize}
 
-    \end{wideitemize}
-
-\end{frame}
+% \end{frame}
 
 \begin{frame}{Banks}
 
@@ -512,16 +799,16 @@ D_{j \ell}  =\frac{e^{\eta\left[G^D\left(r_{j o_{j \ell}^D}^D\right)+ \textcolor
     \item Bank $j$'s problem is: 
     $$
     \begin{aligned}
-     \pi_j=\quad \sup_{ W_j, D_j, L_j, O_j, \bar{Q}_j^D, \bar{Q}_j^L, \left\{r_{j o}^D, r_{j o}^L\right\}_o,\left\{D_{j \ell}, L_{j \ell}, o_{j \ell}^D, o_{j \ell}^L\right\}_{\ell}} \quad \int & \left[\left(r_{j, o_{j \ell}^L}^L-\theta_j^L\right) L_{j \ell}-\left(r_{j, o_{j \ell}^D}^D+\theta_j^D\right) D_{j \ell}\right] d \ell \\ & -R\left(\frac{W_j}{D_j}\right) W_j-\sum_{o \in O_j} \Psi_o \\
-    &  -w_j^* H\left(\left|O_j\right|\right)-w_j^* C\left(\bar{Q}_j^D, \bar{Q}_j^L\right) \\
-    \end{aligned}
+        \max _{R^{D I}, R^{D U},\left\{R_c^H\right\},\left\{R_c^L\right\}} \pi_b= & \pi_b\left(R_b^{D I}, R_b^{D U},\left\{R_{b c}^H\right\}_{c \in \mathcal{C}_b},\left\{R_{b c}^L\right\}_{c \in \mathcal{C}_b}\right)= \\
+        & \underbrace{\sum_{c \in \mathcal{C}_b}\left(R_{b c}^H-f\right) Q_{b c}^H\left(R_{b c}^H\right)+\sum_{c \in \mathcal{C}_b}\left(R_{b c}^L-f\right) Q_{b c}^L\left(R_{b c}^L\right)}_{\text {Local loan return }} +\\
+        & \underbrace{\left(f-R_b^{D I}\right) Q_b^{D I}\left(R_b^{D I}\right)+\left(f-R_b^{D U}\right) Q_b^{D U}\left(R_b^{D U}\right)}_{\text {National deposit return }}-\underbrace{L_b\left(\mathcal{Q}_b\right)}_{\text {Losses }}-\underbrace{\Phi_b\left(\mathcal{Q}_b\right)}_{\text {Costs }},
+        \end{aligned}
     $$
-    subject to (1), (2), (3), (4),  $D_j \equiv \int D_{j \ell} d \ell$ and $L_j \equiv \int L_{j \ell} d \ell$, $W_j=L_j -D_j$, and household decisions of the branch.
-
+where $\mathcal{Q}_b$ is the set of all bank's quantities, $f$ is the federal funds rate, and $\Phi_b$ is the bank's total costs.
     % \
 
 
-        \item \textcolor{blue}{Lemma 1}: \textit{Banks choose the same interest rates on deposits across branches (and on loans). } 
+        % \item \textcolor{blue}{Lemma 1}: \textit{Banks choose the same interest rates on deposits across branches (and on loans). } 
         \end{wideitemize}
     
     \end{frame}
@@ -531,25 +818,30 @@ D_{j \ell}  =\frac{e^{\eta\left[G^D\left(r_{j o_{j \ell}^D}^D\right)+ \textcolor
 
 
     \begin{wideitemize}
-        \item Let $\omega_j = \frac{W_j}{D_j}$ be the bank's relience on wholesale funding.
-        \item Assumption: fixed local cost and headquarter costs shrink towards zero  while households' distaste for branches grows $\rightarrow$ choice of density $n_j$ (Oberfield et al. (2024)).
-        \item Bank $j$'s problem is:
+        \item The bank can of course invest in multiple branches $N$ and moreover use both branches $N$ and digital platforms $O$. 
+        \item The probability of failure becomes $p_b+\delta^O+\delta_a^O+$ $\delta^N N+\delta_a^N N$. Thus, the expected loss $L_{b c}^a$ for lending to borrower $a$ for bank $b$ in county $c$ is given by,
+
         $$
-    \begin{aligned}
-\pi_j=\sup _{\substack{\omega_j, D_j, L_j, \bar{Q}_j^D, \bar{Q}_j^L, r_j^D, r_j^L,\left\{n_{j \ell}\right\}_{\ell}}}\left(r_j^L-\theta_j^L\right) L_j- \left(r_j^D+\theta_j^D\right) D_j-\int \psi_{\ell} n_{j \ell} d \ell   -R\left(\omega_j\right) \omega_j D_j   \\ -w_j^* h\left(\left|n_j\right|\right)-w_j^* C\left(\bar{Q}_j^D, \bar{Q}_j^L\right)
-\end{aligned}
-$$
-subject to (4), (5), $\left(1+\omega_j\right) D_j=L_j$, and 
-$$
-\begin{aligned}
-D_j & \geq \int Q_{j \ell}^D A_{\ell}^D \kappa^D\left(n_{j \ell}\right) \mathcal{D}\left(r_j^D\right) d \ell \\
-L_j & \leq \int Q_{j \ell}^L A_{\ell}^L \kappa^L\left(n_{j \ell}\right) \mathcal{L}\left(r_j^L\right) d \ell
-\end{aligned}
-$$
-
-where $\kappa^D\left(n_{j \ell}\right)$ and $\kappa^L\left(n_{j \ell}\right)$  are impact of additional branch on local appeal. 
-
-
+        L_{b c}^a=p_b+\delta^N N_{b c}+\delta_a^N N_{b c}+\delta^O O_b+\delta_a^O O_b
+        $$
+        
+        % where $N_{b c}$ is the number of branches that bank $b$ has in county $c$, and $O_b$ is an indicator variable denoting whether the bank invested in digital platform technology.
+        
+        \item Suppose that the bank makes $Q_{b c}^L$ loans to borrowers of type $a=L$ and $Q_{b c}^H$ loans to borrowers of type $a=H$ in a county $c$. 
+        
+        \item The expected loss $L_{b c}\left(Q_{b c}^L, Q_{b c}^H\right)$ for bank $b$ 's overall lending in county $c$ is given by the following equation.
+        
+        $$
+        L_{b c}\left(Q_{b c}^L, Q_{b c}^H\right)=L_{b c}^L \cdot Q_{b c}^L+L_{b c}^H \cdot Q_{b c}^H
+        $$
+        
+        
+        % \item Parameterization of bank $b$ 's expected loan losses from county $c$, %, and I let expected loan losses be additive across bank b's counties $c \in \mathcal{C}_b$,
+        
+        $$
+        L_b\left(\mathcal{Q}_b\right)=\sum_{c \in \mathcal{C}_b} L_{b c}\left(Q_{b c}^L, Q_{b c}^H\right) .
+        $$
+        
     \end{wideitemize}
 
 
@@ -559,371 +851,167 @@ where $\kappa^D\left(n_{j \ell}\right)$ and $\kappa^L\left(n_{j \ell}\right)$  a
 \begin{frame}{Banks}
 
 \begin{wideitemize}
-    \item \textcolor{blue}{Lemma 2}:  Given its processing costs, $\theta_j^D$ and $\theta_j^L$, a bank's wholesale funding intensity $\omega_j$ is a sufficient statistic for its deposit and lending rates, $r_j^D$ and $r_j^L$, which are the unique solutions to
+    \item $$
+\frac{\partial \Phi_b^j}{\partial Q_b^j}=\phi_j^N N_{b t} Q_b^j+\phi_j^{Q, S} Q_b^j S_b+\phi_j^{O, S} O_b Q_b^j S_b+\phi_j^{\Theta} \Theta_b+\xi_b^j,
 $$
-\begin{aligned}
-r_j^D & =\arg \max _r\left[\rho^D\left(\omega_j\right)-r-\theta_j^D\right] \mathcal{D}(r) \\
-r_j^L & =\arg \max _r\left[r-\theta_j^L-\rho^L\left(\omega_j\right)\right] \mathcal{L}(r) .
-\end{aligned}
-$$
-$r_j^D$ and $r_j^L$ are both increasing functions of $\omega_j . \mathcal{D}\left(r_j^D\right)$ is increasing in $\omega_j$ while $\mathcal{L}\left(r_j^L\right)$ is decreasing in $\omega_j$.
 
-\item They propose an algorithm to solve the bank's problem.
+where $Q_b^j$ is the quantity of insured or uninsured deposits that bank $b$ provides, $O_b$ is a ry variable tracking whether bank $b$ has a digital platform, $N_b$ is bank $b$ 's number of aches, $S_b$ is a categorical variable tracking whether bank $b$ has below $\$ 10 \mathrm{~B}$, between $\$ 10 \mathrm{~B}$ \$100B, or above $\$ 100 \mathrm{~B}$ in assets, $\Theta_b$ is a vector of controls capturing bank $b$ 's baseline differences, and $\xi_b^j$ is the structural disturbance to bank $b$ 's marginal service costs in ket $j$.
+While deposit markets are national, loan markets are local at the county-level. Accordy, I consider a parsimonious parameterization of bank $b$ 's marginal loan market costs in ket $j \in\{H, L\}$ and county $c \in \mathcal{C}_b$ to be a linear function of digital platforms, branches, county characteristics,
+
+$$
+\frac{\partial \Phi_{b c}^j}{\partial Q_{b c}^j}=\phi_j^N N_{b c}+\phi_j^O O_b+\phi_j^{\Theta} \Theta_{b c}+\xi_{b c}^j,
+$$
 
 \end{wideitemize}
 \end{frame}
 
-\begin{frame}{Sorting and the determinants of firms' footprints}
+
+
+\begin{frame}{Banks}
+
+    \begin{wideitemize}
+        \item The banks problem in $t=0$ is:
+        $$
+\max _{O_b, \boldsymbol{N}_b, \mathcal{C}_b} \Pi_b=\underbrace{\pi_b\left[O_b, \boldsymbol{N}_b, \mathcal{C}_b\right]}_{t=1 \text { Profits }}-\underbrace{F_O\left(O_b\right)}_{\text {Adoption Cost }}-\underbrace{F_N\left(\boldsymbol{N}_b\right)}_{\text {Branch Maintenance }}-\underbrace{F_C\left(\mathcal{C}_b\right)}_{\text {Entry Cost }}
+    $$
+
+    % \end{frame}
+
+
+    \item Adoption costs:
+
+% The bank pays a cost to adopt digital service platforms, as motivated in Section II. I model these costs as in Equation (26) to be concave in bank balance sheet size. This parsimonious parameterization captures that investments in digital platforms cost more when a bank serves more customers, but that the costs increase less than linearly with bank scale.
+
+$$
+F_O\left(O_b\right)=\left(f_O+\xi_b^O\right) \cdot O_b \sqrt{\operatorname{Assets}_b}
+$$
+
+
+% The parameter $f_O$ captures digital platform adoption costs, where $O_b$ is an indicator variable tracking whether bank $b$ has a digital platform, and Assets $b$ is bank $b$ 's assets. $\xi_b^O$ is bank $b$ 's structural disturbance to digital platform adoption costs.
+
+% D.2. Branch Maintenance
+
+% \item Banks incur certain fixed branch maintenance costs as given in Equation (27). The parameter $f_N$ captures the per-branch maintenance cost, and $\xi_b^N$ is bank $b$ 's structural disturbance to this cost.
+\item Branch maintenance costs:
+
+$$
+F_N\left(\boldsymbol{N}_b\right)=\sum_{c \in \mathcal{C}_b}\left(f_N+\xi_b^N\right) \cdot N_{b c}
+$$
+
+\item Maintenance costs:
+% D.3. County Entry Cost
+
+% Finally, the bank also incurs a cost when it originates loans in counties in which it does not have branches. These costs can include local market research, initiation costs, and advertising campaigns. I parameterize this cost as,
+
+$$
+F_C\left(\mathcal{C}_b\right)=\sum_{c \in \mathcal{C}_b} f_C \cdot\left(D_{b c}+\xi_b^C\right) \cdot \text { Non-Local }_{b c} .
+$$
+
+    
+\end{wideitemize}
+
+\end{frame}
+
+\begin{frame}{Estimation}
 
     % \begin{wideitemize}
-
-      Forces that determine a bank's geographic footprint:
         \vspace{0.3cm}
         \begin{wideitemize}
-            \item[1.] Branches close to \textcolor{blue}{headquarters} are more appealing.
-            \item[2.] \textcolor{blue}{"Span-of-control sorting":} More productive banks sort into denser more expensive locations, while less productive banks sort into less attractive cheaper markets.
-            \item[3.] \textcolor{blue}{"Mismatch sorting":} banks choose locations based on the match of the location's characteristics to the funding needs.
-            \item[4.] Incentives to \textcolor{blue}{invest in appeal} determine the bank's size and the value of entering locations.
-    \end{wideitemize}
-% \end{wideitemize}
-    % 3.3 Sorting and the Determinants of Firms' Footprints
+            \item In order to estimate the demand elasticities for each market segment, I take the natural logarithm of banks' demand equations and re-arrange the resulting expressions. For national insured and uninsured deposit markets $j \in\{D I, D U\}$ as given by Equation (29), I obtain the relationship in Equation (31) between log market shares and bank characteristics for bank $b$,
 
-% In the model, four distinct forces determine a bank's geographic footprint. First, banks are likely to place branches close to headquarters since this directly increases their appeal. Second, "span-of-control sorting" says that more productive banks sort into denser more expensive locations, while less productive banks open branches in less attractive, but cheaper, markets. Third, "mismatch sorting" says that banks choose locations based on the match of the location's characteristics to the funding needs of the bank. We discuss each in turn in this subsection. Finally, a bank's incentives to invest in its appeal to borrowers and depositors determine the bank's size, but also the value of entering different locations. We study this last force in the final subsection.
-
-
-\end{frame}
-
-\begin{frame}{Span-of-control sorting}
-
-    \begin{wideitemize}
-
-        \item \textcolor{blue}{Span-of-control cost} $\sigma_j$ is the management resources required by the bank to operate an additional branch, 
-        $\sigma_j = w_j^* h\left(\left|n_j\right|\right)$.
-        \item Let $z_j^D \equiv \lambda_j^D \bar{Q}_j^D \mathcal{D}\left(r_j^D\right)$ and $z_j^L \equiv \lambda_j^L \bar{Q}_j^L \mathcal{L}\left(r_j^L\right)$.
-        \item Assumption 1: The marginal span of control cost $h^{\prime}(\cdot)$ is uniformly more elastic than the marginal local efficiencies of branching, $\kappa^{D^{\prime}}(\cdot)$ and $\kappa^{L \prime}(\cdot)$ .
-        % $$
-        % \inf _{N \geq 0} \frac{N h^{\prime \prime}(N)}{h^{\prime}(N)} \geq \sup _{u \in\{D, L\}, n \geq 0} \frac{-n \kappa^{u \prime \prime}(n)}{\kappa^{u \prime}(n)} .
-        % $$
-        
-        % Before we present our main result on "span-of-control" sorting, we show that more productive banks have higher marginal span-of-control costs, $\sigma_j$, and, under Assumption 1, the difference is larger than their difference in deposit and loan productivities. All proofs are relegated to Appendix A.2.
-        
-        \item \textcolor{blue}{Lemma 3:} Consider two banks with the same headquarters location and the same local taste shocks, $\left\{\phi_{j \ell}\right\}$. Bank 2 is equally more productive than Bank 1, so $z_2^D / z_1^D=z_2^L / z_1^L>1$. Then $\sigma_2>\sigma_1$ and, if Assumption 1 holds, $\sigma_2 / \sigma_1>z_2^D / z_1^D=z_2^L / z_1^L$.
-        
-%         Define $z_j^D \equiv \lambda_j^D \bar{Q}_j^D \mathcal{D}\left(r_j^D\right)$ and $z_j^L \equiv \lambda_j^L \bar{Q}_j^L \mathcal{L}\left(r_j^L\right)$. In addition, define $\sigma_j \equiv w_j^* h^{\prime}\left(\left|n_j\right|\right)$ to be bank $j$ 's marginal span-of-control cost. That is, $\sigma_j$ represents the management resources required by the bank to
-% 20
-% operate an additional branch. Then the first order condition on $n_{j \ell}$ (a marginal increase in the mass of branches of bank $j$ in location $\ell$ ) is given by
-% $$
-% \left[z_j^D J_{j \ell}^D A_{\ell}^D \kappa^{D \prime}\left(n_{j \ell}\right)+z_j^L J_{j \ell}^L A_{\ell}^L \kappa^{L \prime}\left(n_{j \ell}\right)\right] \phi_{j \ell}=\psi_{\ell}+\sigma_j .
-% $$
-
-    \end{wideitemize}
-\end{frame}
-
-\begin{frame}{Span-of-control sorting}
-
-    \begin{wideitemize}
-
-        \item \textcolor{blue}{Proposition 4:} Consider two banks with the same headquarters location and the same local taste shocks, $\left\{\phi_{j \ell}\right\}$. Bank 2 is equally more productive than Bank 1, so $z_2^D / z_1^D=z_2^L / z_1^L>1$, Assumption 1 holds. 
-        
-        Among locations with the same deposit intensity $\alpha_{\ell} \equiv \frac{A_{\ell}^D}{A_{\ell}^L}$, there is a cutoff $\bar{\psi}$ such that 
-
-        \begin{wideitemize}
-            \item if $\psi_{\ell}=\bar{\psi}$ then $n_{2 \ell}=n_{1 \ell}$,
-            \item if $\psi_{\ell}>\bar{\psi}$ then $n_{2 \ell}>n_{1 \ell}$ or $n_{2 \ell}=n_{1 \ell}=0$, and
-            \item if $\psi_{\ell}<\bar{\psi}$ then $n_{2 \ell}<n_{1 \ell}$ or $n_{2 \ell}=n_{1 \ell}=0$.
-
-        \end{wideitemize}
-%The proposition says that, controlling for motives related to the mismatch between deposits and loans (e.g. relative firm productivities across services, $z_2^D / z_1^D=z_2^L / z_1^L$, or deposit intensity, $\alpha_{\ell}$ ), for any two banks there is a cutoff level for the exogenous fixed cost at which the two banks open the same number of branches. For locations with higher local exogenous fixed costs, the more productive bank operates more branches; for locations with lower local fixed costs, the less productive firm operates more plants. This form of sorting arises due to the span-of-control costs. While the more productive (or more appealing) bank would earn higher profits per branch in any location, the more productive firm also has a higher marginal span-of-control cost from operating an additional branch. As a result, a given percentage difference in the exogenous fixed cost across locations implies a smaller proportional change in a large bank's total fixed cost.
-
-    \end{wideitemize}
-
-\end{frame}
-
-    \begin{frame}{Mismatch sorting}
-
-        \begin{wideitemize}
-    
-            \item \textcolor{blue}{Proposition 5:} Consider two banks with the same span of control cost $\sigma_1=\sigma_2$ and the same efficiency of processing deposits and loans, $\theta_1^D=\theta_2^D$ and $\theta_1^L=\theta_2^L$. Assume that Bank 2 is more reliant on wholesale funding than Bank 1 , so $\omega_2>\omega_1$, then
+            $$
+            \log s_b^j-\log s_0^j=\alpha_j^R R_b^j+\alpha_j^N N_b+\alpha_j^{O, S} O_b S_b+\alpha_j^{\Theta} \Theta_b+\xi_b
+            $$
             
-            \vspace{0.3cm}
-            \begin{enumerate}
-            \item there are cutoffs $\bar{\alpha} \geq \underline{\alpha}$ such that
-          \vspace{0.3cm}
-            \begin{wideitemize}
-                \item if $\alpha_{\ell}=\bar{\alpha}$ then $n_{2 \ell}=n_{1 \ell}$,
-                \item if $\alpha_{\ell}>\bar{\alpha}$ then $n_{2 \ell}>n_{1 \ell}$ or $n_{2 \ell}=n_{1 \ell}=0$,
-            \end{wideitemize}
-
-            \vspace{0.3cm}
-            \item If distance for lending is the same as borrowing, i.e., $\kappa^D(n)=\kappa^L(n), \forall n$, then there is a single cutoff $\hat{\alpha}$ such that if local appeal the same across banks and uses, i.e., $Q_{1 \ell}^D=Q_{2 \ell}^D=Q_{1 \ell}^L=Q_{2 \ell}^L$, then
-            \vspace{0.3cm}
-            % \vspace{0.3cm}
-            \begin{wideitemize}
-                \item if $\alpha_{\ell}>\hat{\alpha}$ then $n_{2 \ell}>n_{1 \ell}$ or $n_{2 \ell}=n_{1 \ell}=0$,
-                \item if $\alpha_{\ell}<\hat{\alpha}$ then $n_{1 \ell}>n_{2 \ell}$ or $n_{2 \ell}=n_{1 \ell}=0$.
-            \end{wideitemize}
-        
-            % \vspace{0.3cm}
-            \end{enumerate}
-    %The proposition says that, controlling for motives related to the mismatch between deposits and loans (e.g. relative firm productivities across services, $z_2^D / z_1^D=z_2^L / z_1^L$, or deposit intensity, $\alpha_{\ell}$ ), for any two banks there is a cutoff level for the exogenous fixed cost at which the two banks open the same number of branches. For locations with higher local exogenous fixed costs, the more productive bank operates more branches; for locations with lower local fixed costs, the less productive firm operates more plants. This form of sorting arises due to the span-of-control costs. While the more productive (or more appealing) bank would earn higher profits per branch in any location, the more productive firm also has a higher marginal span-of-control cost from operating an additional branch. As a result, a given percentage difference in the exogenous fixed cost across locations implies a smaller proportional change in a large bank's total fixed cost.
-    
-        \end{wideitemize}
-    
+            
+            \item Similarly, for local high and low income mortgage markets $j \in\{H, L\}$ in counties $c \in \mathcal{C}_b$ as given by Equation (30), I obtain Equation (32) for bank b,
+            
+            $$
+            \log s_{b c}^j-\log s_{0 c}^j=\alpha_j^R R_{b c}^j+\alpha_j^N N_{b c}+\alpha_j^O O_{b c}+\alpha_j^{\Theta} \Theta_{b c}+\xi_{b c} .
+            $$
+            
+    \end{wideitemize}
 
 \end{frame}
 
-%TODO: aDD SLIDES 
-% \begin{frame}{Bank-level investment and spillovers across branches}
 
-%     \begin{wideitemize} % sumarize
-        
-%         \item Returns to scale
-%         \item Specialization
-%     \end{wideitemize}
-
-
-% \end{frame}
-
-
-
-        \begin{frame}[noframenumbering]
-
-            % {Evidence of Sorting}   
-            \huge \centering \textcolor{blue}{Evidence of Sorting}
-        \end{frame}
-
-\begin{frame}{Evidence of spatial sorting}
+\begin{frame}{Estimation}
 
     % \begin{wideitemize}
-
-            \begin{wideitemize}
-                %How did this expansion affect spatial sorting patterns? 
-                \item Largest banks were in the densest counties in 1981.
-                \item Relative sorting: banks in group sort across space.
-                \item Absolute sorting: changes in bank size with county density.
-                % \item Top 1\% of banks grew in the least dense counties, but lost branch share in the least dense counties.
-        \end{wideitemize}
-
-    \begin{figure}
-        \centering
-        \includegraphics[width=0.99\textwidth]{imgs/fig7.png}
-        %\caption*{Caption}
-        \label{fig:my_label}
-    \end{figure}
-    
-    \end{frame}
-
-
-
-\begin{frame}{Evidence of spatial sorting}
-
-    \begin{wideitemize}
-        \item Define the average local population density of bank $j$ in state $s$ in year $t$ to be
-        $$
-        \log \left(\text { Density }_{j s t}\right)=\sum_{c \in \mathcal{C}_s}\left(\frac{b_{j c t}}{\sum_{c^{\prime} \in \mathcal{C}_s} b_{j c^{\prime} t}}\right) \log \left(\text { Density }_{c t}\right),
-        $$
-
-        where Density ${ }_{c t}$ is the population density of county $c$ in year $t, \mathcal{C}_s$ is the set of counties in state $s$, and $b_{j c t}$ is the number of branches of bank $j$ in county $c$ in year $t$. %We focus on sorting patterns within a given state in a given year. 
-        
-        \item  Main regression specification is
-$$
-\log \left(\text { Density }_{j s t}\right)=\beta \text { Size }_{j t}+\gamma_{s t}+\varepsilon_{j s t}
-$$
-where $\operatorname{Size}_{j t}$ is measured as log deposits of bank $j$ at time $t$ across all of its bank branches. 
-
-\item[$\rightarrow$] $\beta>0$ coefficient is evidence of \textcolor{blue}{span-of-control sorting}.
-
-\item[$\rightarrow$] Larger banks are located disproportionately in dense counties.
-
-    \end{wideitemize}
-%${ }^{38}$ We interpret a positive $\beta$ coefficient as evidence of span-of-control sorting, i.e. larger banks are located disproportionately in dense counties. Note that standard heterogeneous firm models, as in Melitz (2003), imply exactly the opposite. In those models, it is the productive firms that sell in the more marginal markets, which would imply a negative $\beta$ coefficient.
-    \end{frame}
-
-    \begin{frame}{Evidence of spatial sorting}
-
-        \begin{figure}
-            \centering
-            \includegraphics[width=0.8\textwidth]{imgs/tab1.png}
-            \caption*{ Standard errors  
-            are two-way clustered at the state and bank level.}
-            \label{fig:my_label}
-        \end{figure}
-        
-        \end{frame}
-    
-
-
-\begin{frame}{Evidence of spatial sorting: Role of distance}
-    % the sample to banks that are active in two or more counties to avoid headquarters location biases. 
-    
-    \begin{wideitemize}
-        \item   $\operatorname{dist}_{j s}^q=\mathbf{1}\left\{\log \left(\operatorname{dist}_{j s}\right)\right.$ in quartile $\left.q\right\}$ for $q=2,3,4$ and dist $_{j s}$ to be the avg dist. to HQ.  %We estimate the regression
-        % \item %Define dist $_{j s}$ to be the average distance from bank $j$ 's headquarter county to its branches in state $s$, and
-    $$
-    \log (\text { Density })_{j s t}=\beta \operatorname{Size}_{j t}+\sum_{q=2}^4 \theta_q \operatorname{dist}_{j s}^q+\sum_{q=2}^4 \beta_q \operatorname{Size}_{j t} \times \operatorname{dist}_{j s}^q+\gamma_{s t}+\varepsilon_{j s t} .
-    $$
-    \item Sorting declines with distance and faraway banks are in more dense counties. 
-
-    \end{wideitemize}
-    \begin{figure}
-        \centering
-        \includegraphics[width=0.8\textwidth]{imgs/fig8.png}
-        \caption*{Changes in relative and absolute sorting patterns between 1981 and 2006 for
-        four bank-size bins.\\ (a) Sorting interaction coefficients. (b) Distance coefficients.}
-        % (b) Distance coefficients.}
-        \label{fig:my_label}
-    \end{figure}
-
-    % \begin{itemize}
-  
-    % \end{itemize}
-
-
-    
-    \end{frame}
-
-
-    \begin{frame}{Evidence of spatial sorting}
-    
-    % granular geographic approach to understand the determinants of branching in particular
-    % counties. For example, do large banks expand into cities relatively more than small banks? Does the distance
-    % between a bank and its target county have a measured effect on the number of branches they choose to set
-\begin{wideitemize}
-    \item Estimate the Poisson regression
-$$
-\log \left(\mathbb{E}\left[\operatorname{Branches}_{j c t}\right]\right)=\underbrace{\delta \operatorname{Size}_{j t} \times \log \left(\operatorname{Density}_{c t}\right)}_{\text {sorting motives }}+\underbrace{\theta \log \left(\operatorname{Miles}_{j c}\right)}_{\text {distance effect }}+\gamma_{c t}+\gamma_{j t}+\varepsilon_{j c t} .
-$$
-
-\begin{wideitemize}
-    \item where Branches $_{j c t}$ is the total number of branches of bank $j$ in county $c$ in year $t$,
-    \item Miles${ }_{j c}$ is the distance in miles from centroid of bank $j$ 's headquarter county and the centroid of $c$. 
-    \item Standardize both bank size and log county population density.
-    
-    %We interpret a positive $\delta$ estimate as evidence for spatial span-of-control sorting: large banks have more branches, but especially so in dense counties.
-% where Branches $_{j c t}$ denotes the total number of branches of bank $j$ in county $c$ in year $t$ and Miles ${ }_{j c}$ is the distance in miles from the centroid of bank $j$ 's headquarter county and the centroid of county $c$. 
-% We standardize both bank size and log county population density. We interpret a positive $\delta$ estimate as evidence for spatial span-of-control sorting: large banks have more branches, but especially so in dense counties.
-
-% We limit our sample to banks that at some point in the sample were active in 35 or more counties. We do this for two reasons. First, with over 3,000 counties and 26 years, each bank year in the data consists of nearly 80,000 observations. With about 9,000 banks per year on average, this gives over 250 million
-
-\end{wideitemize}
-
-\item[$\rightarrow$] $\delta>0$ coefficient is evidence of \textcolor{blue}{span-of-control sorting}.
-\item[$\rightarrow$] Larger banks have more branches, but especially so in dense counties.
-
-\end{wideitemize}
-    \end{frame}
-
-    \begin{frame}{Evidence of spatial sorting}
-    
-        \begin{figure}
-            \centering
-            \includegraphics[width=0.78\textwidth]{imgs/tab2.png}
-            \caption*{Heteroscedasticity-robust standard
-            errors are reported in parentheses}
-            \label{fig:my_label}
-        \end{figure}
-        
-        \end{frame}
-
-
-        \begin{frame}{Sorting over time and impact of deregulation}
-            \begin{wideitemize}
-                %How did this expansion affect spatial sorting patterns? 
-                \item Top 1\% of banks grew in the densest counties, but lost branch share in the most dense counties. 
-                % \item Top 1\% of banks grew in the least dense counties, but lost branch share in the least dense counties.
-        \end{wideitemize}
-
-    \begin{figure}
-        \centering
-        \includegraphics[width=0.99\textwidth]{imgs/fig9.png}
-        \caption*{
-            Pattern cheange between 1981 and 2006 by county density and bank size. }
-        \label{fig:my_label}
-        % notes here
-    \end{figure}
-
-    % Patterns between 1981 and 2006 by county density and bank size. 
-    
-    \end{frame}
-
-    \begin{frame}{Sorting over time and impact of deregulation}\label{sorting_time}
-    % to study this empirical finding in more detail. In particular, we explore how sorting changed over time using our regression analysis. We begin by estimating equation (17) year by year to allow the sorting coefficient to vary over time. Namely, we estimate
-    \begin{itemize}
-        \item Decline in relative sorting patterns until 1998.  %, after which the sorting estimates plateau.
-% button to stag time 
-\hyperlink{stag_time}{\beamerbutton{Staggered changes}}
-    
-    $$
-    \log (\text { Density })_{j s t}=\beta_t \text { Size }_{j t}+\gamma_{s t}+\varepsilon_{j s t}, \quad t=1981, \ldots, 2006 .
-    $$
-    \end{itemize}
-    
-    % Figure 10a shows the evolution of the density-size sorting elasticity over time. There is a consistent decline in relative sorting patterns until 1998, after which the sorting estimates plateau. The decline is significant: the coefficient falls from 0.37 in 1981 to an average of 0.22 after 1998.
-    
-    % Figure 10b connects the decline in sorting to geographic deregulation. We plot the estimated sorting coefficient from equation (20) against the average number of reciprocal agreements per state in a given year. There is a clear negative trend: in the early stages of deregulation, sorting estimates are clustered around 0.33 . As the deregulation picked up, there is a clear decline, culminating at the 0.22 level following the passage of the IBBEA, when all states deregulated fully.
-    \begin{figure}
-        \centering
-        \includegraphics[width=0.99\textwidth]{imgs/fig10.png}
-        \caption*{Sorting coefficients $\beta_t$ between 1981 and 2006.}
-        \label{fig:my_label}
-    \end{figure}
-    
-    \end{frame}
-
-    
-
-        \begin{frame}{Sorting over time and impact of deregulation: Event study}
-            \begin{itemize}
-                \item Weakened sorting patterns after deregulation. %, after which the sorting estimates plateau.
-    
-            
-            %Of course, we cannot rule out that the estimation may be simply picking up pre-trends in sorting patterns. Many states deregulated in-state branching in the late 1970s and early 1980s, which could drive changes in sorting patterns as banks became less geographically constrained within a given state. %We therefore further test for causality by looking at the dynamic effects of deregulation on sorting. We estimate an event study specification given by
-            $$
-            \log \left(\text { Density }_{j s t}\right)=\beta \operatorname{Size}_{j t}+\sum_{\substack{-5 \leq h \leq 10 \\ h \neq-1}} \beta_h \operatorname{Size}_{j t} \times \text { Open }_{s t+h}+\gamma_{s t}+\varepsilon_{j s t},
-            $$
-            where $\operatorname{Open}_{s t+h}$ is equal to 1 if $\operatorname{Recip}_{s t+h}>0$, $h=0$ the first period in which a state opened up.
-        \end{itemize}
-    %Of course, we cannot rule out that the estimation may be simply picking up pre-trends in sorting patterns. Many states deregulated in-state branching in the late 1970s and early 1980s, which could drive changes in sorting patterns as banks became less geographically constrained within a given state. %We therefore further test for causality by looking at the dynamic effects of deregulation on sorting. We estimate an event study specification given by
-    % $$
-    % \log \left(\text { Density }_{j s t}\right)=\beta \operatorname{Size}_{j t}+\sum_{\substack{-5 \leq h \leq 10 \\ h \neq-1}} \beta_h \operatorname{Size}_{j t} \times \text { Open }_{s t+h}+\gamma_{s t}+\varepsilon_{j s t},
-    % $$
-    % where $\operatorname{Open}_{s t+h}$ is an indicator equal to 1 if $\operatorname{Recip}_{s t+h}>0$. We let $h=0$ refer to the first period in which a state opened up to any other state. 
-    %If the results in Table III are driven by changes in sorting induced by intra-state branching deregulation, then the pre-trend coefficients $(h<0)$ should be positive.
-    
-    % Figure 11 plots the results of the event study. The pre-trend coefficients average 0.01 and are all statistically insignificant at the $5 \%$ level. All of the post-opening coefficients are negative, and only the initial deregulation year is insignificant. The effects are monotonically declining over time following the initial opening, which likely reflects the increasing degree of openness over time.
-    \begin{figure}
-        \centering
-        \includegraphics[width=0.6\textwidth]{imgs/fig11.png}
-        %\caption*{Caption}
-        \label{fig:my_label}
-        \caption*{Standard errors are two-way clustered at the state and bank level.}
-    \end{figure}
-    
-    \end{frame}
-
-
-
-    \begin{frame}{Connecting mismatch sorting to the level of wholesale funding}\label{mismatch_sorting}
-
-        \vspace{0.1cm}
-
-        \textcolor{blue}{Mismatch sorting:} Banks choose locations based on the match of the location's characteristics to the funding needs.
-        %! Summary of the results
+        \vspace{0.3cm}
         \begin{wideitemize}
-            \item Denser locations are less deposit intensive \hyperlink{mismatch_sorting1}{\beamerbutton{Regression}}
-            
-            \item Banks that were headquartered in counties with more loan opportunities used more wholesale funding in 1984. 
-            \hyperlink{mismatch_sorting2}{\beamerbutton{Regression}}
-            
-            \item Banks with more exposure to wholesale funding expanded into locations that were deposit-abundant.
-            \hyperlink{mismatch_sorting3}{\beamerbutton{Poisson regression}}
+            \item Banks' expected loan losses satisfy Equation (22). In this section I estimate the loan loss parameters, i.e. $p_b$ and the $\delta$ 's that appear in (22), using bank-level panel data from 2010 through 2019. For ease of interpretation, I divide both sides of the equation by the total quantity of loans that bank $b$ has on its balance sheet, $Q_{b t}^{B a l}$, in order to obtain on the left hand side the per-unit loss. I map this empirically to banks' loan loss allocations divided by banks' balance sheet quantity of loans, as reported in their regulatory Call Reports. I restrict to banks whose mortgage originations in a given year represent greater than $2 \%$ of their loan portfolio. Specifically, I estimate,
 
-        \end{wideitemize}
-            
-        
-        \end{frame}
+            $$
+            \begin{aligned}
+            \text { Per Unit } \operatorname{Loss}_{b, t} & =\underbrace{\delta^O O_{b t} \frac{\left(Q_{b c t}^L+Q_{b c t}^H\right)}{Q_{b t}^{B a l}}+\delta_L^O O_{b t} \frac{Q_{b t}^L}{Q_{b t}^{B a l}}+\delta_H^O O_{b t} \frac{Q_{b t}^H}{Q_{b t}^{B a l}}}_{\text {Effect of Digital Platforms }} \\
+            & +\underbrace{\delta^N \frac{\sum_{c c \mathcal{C}} N_{b c}\left(Q_{b c t}^L+Q_{b c t}^H\right)}{Q_{b t}^{B a l}}+\delta_L^N \frac{\sum_{c \in \mathcal{C}} N_{b c} Q_{b c t}^L}{Q_{b t}^{B a l}}+\delta_H^N \frac{\sum_{c \in \mathcal{C}} N_{b c} Q_{b c t}^H}{Q_{b t}^{B a l}}}_{\text {Effect of Branches }} \\
+            & +\underbrace{+\delta_U \text { Per Unit } \operatorname{Loss}_{b, t-1}+\delta_C \text { Coverage }_b+\delta_t+\xi_{b t} .} .
+            \end{aligned}
+            $$
+       
+    \end{wideitemize}
 
-        \begin{frame}{The impact of deregulation on bank expansion and wholesale funding}\label{der_impact}
+\end{frame}
+
+
+
+\begin{frame}{Estimation: Service Provision Costs}
+
+    % \begin{wideitemize}
+        \vspace{0.3cm}
+        \begin{wideitemize}
+            %B.2. Service Provision Costs
+
+            \item To estimate the parameters that appear in banks' service provision costs, take FOC:
+            
+            $$
+            \begin{aligned}
+            F O C_{R^j}: & \underbrace{f-R^j-Q^j\left(\frac{\partial Q^j}{\partial R^j}\right)^{-1}}_{\text {Spread }_b^j}=\frac{\partial \Phi_b^j}{\partial Q^j} \quad \text { for } j \in\{D I, D U\} \\
+            F O C_{R_c^j}: & \underbrace{R_c^j-f+Q_c^j\left(\frac{\partial Q_c^j}{\partial R_c^j}\right)^{-1}-\frac{\partial L}{\partial Q_c^j}}_{\text {Spread }_{b, c}^j}=\frac{\partial \Phi_{b c}^j}{\partial Q_c^j} \quad \text { for } j \in\{H, L\}, c \in C_b .
+            \end{aligned}
+            $$
+            
+            
+            %The left-hand sides of Equation (36) and (37) are observed in the data after demand parameters are estimated. In other words, if banks are maximizing profits subject to the estimated demand curves and loan losses, then the loan spread that they choose in equilibrium, above and beyond their markup and their loan losses in the case of mortgage markets, reveal what their marginal costs are. I parameterize marginal service costs as in Equations (23) and (24), which I now 
+            \item Combined with banks' first order conditions to arrive at the following expressions.
+            
+            $$
+            \begin{aligned}
+            \operatorname{Spread}_b^j & =\phi_j^N N_{b c} Q_b^j+\phi_j^{Q, S} Q_b^j S_b+\phi_j^{O, S} O_b Q_b^j S_b+\phi_j^{\Theta} \Theta_b+\xi_b^j \quad \text { for } j \in\{D I, D U\} \\
+            \operatorname{Spread}_{b, c}^j & =\phi_j^N N_{b c}+\phi_j^O O_b+\phi_j^{\Theta} \Theta_{b c}+\xi_{b c}^j \quad \text { for } j \in\{H, L\}, c \in C_b
+            \end{aligned}
+            $$
+            
+    \end{wideitemize}
+
+\end{frame}
+
+
+\begin{frame}{Estimation: Service Provision Costs}
+
+    \begin{wideitemize}
+
+        \item \textcolor{blue}{}
+         $$\begin{aligned} & \frac{1}{B} \sum_b\left[Z_b^{-}\left(\Delta \hat{\pi}\left(1, d_{-b}, r_b\right)-\Delta \hat{\pi}\left(0, d_{-b}, r_b\right)\right) \cdot \operatorname{Assets}_b^{-1 / 2} \mid O_b^*=0\right] \leq f_O \\ & \frac{1}{B} \sum_b\left[Z_b^{+}\left(\Delta \hat{\pi}\left(1, d_{-b}, r_b\right)-\Delta \hat{\pi}\left(0, d_{-b}, r_b\right)\right) \cdot \operatorname{Assets}_b^{-1 / 2} \mid O_b^*=1\right] \geq f_O\end{aligned}$$
+  
+         \item Maybe copy other costs
+        \item Consumer Surplus 
+ $E[C S]=\frac{1}{\alpha} \log \left(\sum_{j=0}^J \exp \left(\alpha_j X_b\right)\right)$,
+
+ \item Per Unit $\operatorname{Loss}_{b, t}^L=\left(\delta^O+\delta_L^O\right) \frac{O_{b, t} Q_{b t}^L}{Q_{b t}^{B a l}}+\left(\delta^B+\delta_L^B\right) \frac{\sum_c B_{b c} Q_{b c t}^L}{Q_{b t}^{B a l}}$
+ $+\delta_U$ Per Unit Loss $_{b, t-1}+\delta_C$ Coverage $_b+\delta_t+\xi_{b t}$.
+    \end{wideitemize}
+
+\end{frame}
+
+   
+
+%TODO: aDD SLIDES 
+
+
+
+        \begin{frame}{Demand results}\label{der_impact}
             \begin{wideitemize}
                 \item What was the effect of expansion on the dynamics of a bank’s reliance on wholesale funding? % after the deregulation?S
                 
@@ -948,26 +1036,120 @@ $$
     \end{frame}
     
 
-\begin{frame}{The impact of deregulation on bank expansion and wholesale funding}\label{der_impac2}
-    \begin{itemize}
-        \item What was the effect of expansion on the dynamics of a bank’s reliance on wholesale funding? % after the deregulation?
-         \end{itemize}
-        % We have already shown that banks that started with wholesale funding expanded into less dense locations that were more deposit-abundant. The final step is to explore what was the effect of this expansion on the dynamics of a bank's overall reliance on wholesale funding after the deregulation shock. We do this by studying the dynamics of the deregulation shock on a bank's geographic expansion and wholesale funding reliance as a function of the bank's initial size and wholesale funding use. Let Large ${ }_j$ be an indicator equal to 1 if bank $j$ is in the top $5 \%$ of banks by deposits in the first sample year, 1984. Given an outcome variable $Y_{j t}$, we estimate
-
-        % for $h=1, \ldots, 7 $ 
-        %We consider the relative effect of differential use of wholesale funding, $\mathrm{WFE}_{j t}$ and $\mathrm{WFE}_{j^{\prime} t}$, for two banks with identical expansion options, $\operatorname{Recip}_{j t}=$ Recip $_{j^{\prime} t}$, in an identical size bin, Large $_j=$ Large $_{j^{\prime}}$. The differential effect on outcome $Y_{(\cdot)}$ at horizon $h$ of total deregulation, Recip ${ }_{j t}=1$, is then given by $\left[\beta_{1 h}+\beta_{3 h}\right.$ Large $\left._j\right]\left(\mathrm{WFE}_{j t}-\mathrm{WFE}_{j^{\prime} t}\right)$. We consider three dependent variables: wholesale funding exposure, total branches, and total counties with at least one branch. We plot the effects for each measure given a one standard deviation increase in wholesale funding for small (below top $5 \%$ in deposits) and large (above top $5 \%$ in deposits) banks. The standard deviations of wholesale funding are 0.099 and 0.149 , respectively.
+\begin{frame}{Demand estimation results}\label{demand_results1}
 
 
     \begin{figure}
         \centering
-        \includegraphics[width=0.99\textwidth]{imgs/fig12.png}
+        \includegraphics[width=0.8\textwidth]{imgs/tab9.png}
         %\caption*{Caption}
-        \label{fig:my_label}
+        % \label{fig:my_label}
     \end{figure}
     
     \end{frame}
 
+    \begin{frame}{Deposits Cost estimation results}\label{cost_results}
+
+
+        \begin{figure}
+            \centering
+            \includegraphics[width=0.8\textwidth]{imgs/tab9b.png}
+            %\caption*{Caption}
+            % \label{fig:my_label}
+        \end{figure}
+        
+        \end{frame}
+    
+        \begin{frame}{Demand and cost for loans results}\label{demand_cost_loans}
+
+
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.6\textwidth]{imgs/tab10.png}
+                %\caption*{Caption}
+                % \label{fig:my_label}
+            \end{figure}
+            
+            \end{frame}
+
+
+        \begin{frame}{Loan losses estimation results}\label{loan_losses}
+
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.5\textwidth]{imgs/tab10c.png}
+                %\caption*{Caption}
+                % \label{fig:my_label}
+            \end{figure}
+            
+            \end{frame}
+
+            \begin{frame}{Banks fixed costs estimation results}\label{fixed_costs}
+
+                \begin{figure}
+                    \centering
+                    \includegraphics[width=0.6\textwidth]{imgs/tab11.png}
+                    %\caption*{Caption}
+                    % \label{fig:my_label}
+                \end{figure}
+                
+            \end{frame}
+
+            \begin{frame}{Aggregate Effects on Competition}\label{agg_effects}
+
+                \begin{figure}
+                    \centering
+                    \includegraphics[width=0.6\textwidth]{imgs/tab12.png}
+                    %\caption*{Caption}
+                    % \label{fig:my_label}
+                \end{figure}
+                
+            \end{frame}
+
+            \begin{frame}{Competition Implications}\label{comp_implications}   
+                \begin{figure}
+                    \centering
+                    \includegraphics[width=0.6\textwidth]{imgs/tab12b.png}
+                    %\caption*{Caption}
+                    % \label{fig:my_label}
+                \end{figure}
+                
+                \begin{figure}
+                    \centering
+                    \includegraphics[width=0.34\textwidth]{imgs/tab12c.png}
+                    %\caption*{Caption}
+                    % \label{fig:my_label}
+                \end{figure}
+            \end{frame}
+
+
+
+
+            \begin{frame}{Financial Stability implications}\label{fin_stab}
+                \begin{figure}
+                    \centering
+                    \includegraphics[width=0.6\textwidth]{imgs/tab13.png}
+                    %\caption*{Caption}
+                    % \label{fig:my_label}
+                \end{figure}
+                
+                \begin{figure}
+                    \centering
+                    \includegraphics[width=0.55\textwidth]{imgs/tab13c.png}
+                    %\caption*{Caption}
+                    % \label{fig:my_label}
+                \end{figure}
+            \end{frame}
+
+     
+
+
+
+
+
+
 % Conclusion frame
+
 \begin{frame}{Conclusion}
     % \begin{wideitemize}
         % \item \textcolor{blue}{Summary:} 
@@ -1061,7 +1243,7 @@ $$
         %${ }^{45}$ We gradually add controls for the density of a bank's headquarters county and the size of the bank. We present the results in Table V.
         \begin{figure}
             \centering
-            \includegraphics[width=0.75\textwidth]{imgs/tab5.png}
+            \includegraphics[width=0.6\textwidth]{imgs/tab5.png}
             %\caption*{Caption}
             \label{fig:my_label}
         \end{figure}

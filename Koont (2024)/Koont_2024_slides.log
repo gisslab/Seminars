@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.15)  18 NOV 2024 14:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.15)  25 NOV 2024 15:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -806,27 +806,6 @@ LaTeX Warning: Label `fig:my_label' multiply defined.
 
 LaTeX Warning: Label `fig:my_label' multiply defined.
 
-
-LaTeX Warning: Label `fig:my_label' multiply defined.
-
-
-LaTeX Warning: Label `fig:my_label' multiply defined.
-
-
-LaTeX Warning: Label `fig:my_label' multiply defined.
-
-
-LaTeX Warning: Label `fig:my_label' multiply defined.
-
-
-LaTeX Warning: Label `fig:my_label' multiply defined.
-
-
-LaTeX Warning: Label `fig:my_label' multiply defined.
-
-
-LaTeX Warning: Label `fig:my_label' multiply defined.
-
 )
 \openout1 = `Koont_2024_slides.aux'.
 
@@ -1029,195 +1008,185 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 5.21004pt on input line 241.
  [1
 
-{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 278.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 278.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 278.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 278.
+ [2
 
 ] [3
 
-]
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 294.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 294.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 294.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 294.
- [4
+] [4
 
 ] [5
 
+] [6
+
 ]
-<imgs/fig1.png, id=48, 652.4375pt x 431.6125pt>
+<imgs/fig1.png, id=50, 652.4375pt x 431.6125pt>
 File: imgs/fig1.png Graphic file (type png)
 <use imgs/fig1.png>
-Package pdftex.def Info: imgs/fig1.png  used on input line 329.
-(pdftex.def)             Requested size: 282.90598pt x 187.15718pt.
- [6
-
- <./imgs/fig1.png>]
-<imgs/fig3.png, id=56, 921.4425pt x 339.2675pt>
-File: imgs/fig3.png Graphic file (type png)
-<use imgs/fig3.png>
-Package pdftex.def Info: imgs/fig3.png  used on input line 347.
-(pdftex.def)             Requested size: 400.42372pt x 147.43004pt.
+Package pdftex.def Info: imgs/fig1.png  used on input line 380.
+(pdftex.def)             Requested size: 278.55592pt x 184.27916pt.
  [7
 
- <./imgs/fig3.png>]
-<imgs/fig4.png, id=70, 948.54375pt x 551.05875pt>
+ <./imgs/fig1.png>] [8
+
+]
+<imgs/fig3.png, id=64, 921.4425pt x 339.2675pt>
+File: imgs/fig3.png Graphic file (type png)
+<use imgs/fig3.png>
+Package pdftex.def Info: imgs/fig3.png  used on input line 415.
+(pdftex.def)             Requested size: 400.42372pt x 147.43004pt.
+ [9
+
+ <./imgs/fig3.png>] [10
+
+]
+<imgs/fig4.png, id=78, 948.54375pt x 551.05875pt>
 File: imgs/fig4.png Graphic file (type png)
 <use imgs/fig4.png>
-Package pdftex.def Info: imgs/fig4.png  used on input line 362.
-(pdftex.def)             Requested size: 348.19656pt x 202.28252pt.
+Package pdftex.def Info: imgs/fig4.png  used on input line 442.
+(pdftex.def)             Requested size: 330.78308pt x 192.16713pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{fig:my_label}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.362         \end{frame}
-                          [8
+l.442 \end{frame}
+                 
+Overfull \vbox (17.67278pt too high) detected at line 442
+ []
 
- <./imgs/fig4.png>] [9
+[11
+
+ <./imgs/fig4.png>]
+LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 472.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
+) [12
+
+] [13
 
 ]
-<imgs/fig5.png, id=83, 901.3675pt x 349.305pt>
+<imgs/tab1.png, id=103, 647.41875pt x 696.6025pt>
+File: imgs/tab1.png Graphic file (type png)
+<use imgs/tab1.png>
+Package pdftex.def Info: imgs/tab1.png  used on input line 514.
+(pdftex.def)             Requested size: 206.74025pt x 222.44966pt.
+
+Overfull \vbox (15.56642pt too high) detected at line 514
+ []
+
+[14
+
+ <./imgs/tab1.png>]
+<imgs/fig5.png, id=110, 901.3675pt x 349.305pt>
 File: imgs/fig5.png Graphic file (type png)
 <use imgs/fig5.png>
-Package pdftex.def Info: imgs/fig5.png  used on input line 390.
+Package pdftex.def Info: imgs/fig5.png  used on input line 533.
 (pdftex.def)             Requested size: 430.894pt x 166.98225pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{fig:my_label}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.390 \end{frame}
-                 
-Overfull \vbox (12.4879pt too high) detected at line 390
+l.533     \end{frame}
+                     
+Overfull \vbox (2.4879pt too high) detected at line 533
  []
 
-[10
+[15
 
  <./imgs/fig5.png>]
-LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 424.
- (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ot1ppl.fd
-File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
-) [11
-
-]
-<imgs/tab1.png, id=99, 647.41875pt x 696.6025pt>
-File: imgs/tab1.png Graphic file (type png)
-<use imgs/tab1.png>
-Package pdftex.def Info: imgs/tab1.png  used on input line 458.
-(pdftex.def)             Requested size: 206.74025pt x 222.44966pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{fig:my_label}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.458 \end{frame}
-                 
-Overfull \vbox (15.56642pt too high) detected at line 458
- []
-
-[12
-
- <./imgs/tab1.png>]
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 489.
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <7.6> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 489.
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <6> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 489.
-<imgs/tab2.png, id=107, 891.33pt x 886.31125pt>
+<imgs/tab2.png, id=117, 891.33pt x 886.31125pt>
 File: imgs/tab2.png Graphic file (type png)
 <use imgs/tab2.png>
-Package pdftex.def Info: imgs/tab2.png  used on input line 489.
+Package pdftex.def Info: imgs/tab2.png  used on input line 558.
 (pdftex.def)             Requested size: 348.19656pt x 346.24153pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{fig:my_label}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.489 \end{frame}
+l.558 \end{frame}
                  
-Overfull \vbox (186.64853pt too high) detected at line 489
- []
-
-[13
-
- <./imgs/tab2.png>] [14
-
-]
-<imgs/tab3.png, id=121, 774.895pt x 555.07375pt>
-File: imgs/tab3.png Graphic file (type png)
-<use imgs/tab3.png>
-Package pdftex.def Info: imgs/tab3.png  used on input line 526.
-(pdftex.def)             Requested size: 282.90598pt x 202.65527pt.
- [15
-
- <./imgs/tab3.png>]
-<imgs/tab4.png, id=128, 825.0825pt x 819.06pt>
-File: imgs/tab4.png Graphic file (type png)
-<use imgs/tab4.png>
-Package pdftex.def Info: imgs/tab4.png  used on input line 550.
-(pdftex.def)             Requested size: 369.96008pt x 367.26132pt.
-
-Overfull \vbox (179.87808pt too high) detected at line 550
+Overfull \vbox (183.74718pt too high) detected at line 558
  []
 
 [16
 
- <./imgs/tab4.png>]
-<imgs/tab5.png, id=136, 527.9725pt x 761.84625pt>
-File: imgs/tab5.png Graphic file (type png)
-<use imgs/tab5.png>
-Package pdftex.def Info: imgs/tab5.png  used on input line 574.
-(pdftex.def)             Requested size: 217.62202pt x 314.02133pt.
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <9> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 574.
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <7> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 574.
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <5> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 574.
+ <./imgs/tab2.png>]
+<imgs/tab3.png, id=124, 774.895pt x 555.07375pt>
+File: imgs/tab3.png Graphic file (type png)
+<use imgs/tab3.png>
+Package pdftex.def Info: imgs/tab3.png  used on input line 572.
+(pdftex.def)             Requested size: 282.90598pt x 202.65527pt.
 
-pdfTeX warning (ext4): destination with the same identifier (name{fig:my_label}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.574 \end{frame}
-                 
-Overfull \vbox (168.32835pt too high) detected at line 574
+Overfull \vbox (16.16092pt too high) detected at line 572
  []
 
 [17
 
- <./imgs/tab5.png>]
-<imgs/tab6.png, id=145, 434.62375pt x 625.33624pt>
-File: imgs/tab6.png Graphic file (type png)
-<use imgs/tab6.png>
-Package pdftex.def Info: imgs/tab6.png  used on input line 591.
-(pdftex.def)             Requested size: 174.09496pt x 250.49265pt.
+ <./imgs/tab3.png>]
+<imgs/tab4.png, id=131, 825.0825pt x 819.06pt>
+File: imgs/tab4.png Graphic file (type png)
+<use imgs/tab4.png>
+Package pdftex.def Info: imgs/tab4.png  used on input line 589.
+(pdftex.def)             Requested size: 369.96008pt x 367.26132pt.
 
-Overfull \vbox (50.05385pt too high) detected at line 591
+Overfull \vbox (201.87808pt too high) detected at line 589
  []
 
 [18
 
+ <./imgs/tab4.png>]
+<imgs/tab5.png, id=138, 527.9725pt x 761.84625pt>
+File: imgs/tab5.png Graphic file (type png)
+<use imgs/tab5.png>
+Package pdftex.def Info: imgs/tab5.png  used on input line 606.
+(pdftex.def)             Requested size: 217.62202pt x 314.02133pt.
+
+Overfull \vbox (127.52698pt too high) detected at line 606
+ []
+
+[19
+
+ <./imgs/tab5.png>]
+<imgs/tab6.png, id=146, 434.62375pt x 625.33624pt>
+File: imgs/tab6.png Graphic file (type png)
+<use imgs/tab6.png>
+Package pdftex.def Info: imgs/tab6.png  used on input line 623.
+(pdftex.def)             Requested size: 174.09496pt x 250.49265pt.
+
+Overfull \vbox (37.05385pt too high) detected at line 623
+ []
+
+[20
+
  <./imgs/tab6.png>]
-<imgs/tab7.png, id=152, 526.96875pt x 399.4925pt>
+<imgs/tab7.png, id=153, 526.96875pt x 399.4925pt>
 File: imgs/tab7.png Graphic file (type png)
 <use imgs/tab7.png>
-Package pdftex.def Info: imgs/tab7.png  used on input line 603.
+Package pdftex.def Info: imgs/tab7.png  used on input line 638.
 (pdftex.def)             Requested size: 217.62202pt x 164.98164pt.
- [19
+ [21
 
  <./imgs/tab7.png>]
 <imgs/tab8.png, id=160, 785.93625pt x 415.5525pt>
 File: imgs/tab8.png Graphic file (type png)
 <use imgs/tab8.png>
-Package pdftex.def Info: imgs/tab8.png  used on input line 613.
+Package pdftex.def Info: imgs/tab8.png  used on input line 652.
 (pdftex.def)             Requested size: 380.83853pt x 201.36517pt.
- [20
 
- <./imgs/tab8.png>] [21
+Overfull \vbox (14.87082pt too high) detected at line 652
+ []
 
-] [22
+[22
 
-] [23
+ <./imgs/tab8.png>] [23
 
 ] [24
 
@@ -1225,30 +1194,29 @@ Package pdftex.def Info: imgs/tab8.png  used on input line 613.
 
 ] [26
 
+] [27
+
 ]
-Overfull \hbox (3.00536pt too wide) detected at line 830
+Overfull \hbox (3.00536pt too wide) detected at line 853
 [][]
  []
 
-[27
+[28
 
-] [28
-
-]
-LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 882.
- (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ts1cmss.fd
-File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) [29
+] [29
 
 ] [30
 
-] [31
-
 ]
-Overfull \vbox (0.15575pt too high) detected at line 971
- []
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 964.
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <7.6> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 964.
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <6> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 964.
+ [31
 
-[32
+] [32
 
 ] [33
 
@@ -1256,187 +1224,93 @@ Overfull \vbox (0.15575pt too high) detected at line 971
 
 ] [35
 
+] [36
+
 ]
-<imgs/tab9.png, id=253, 757.83125pt x 447.6725pt>
+<imgs/tab9.png, id=247, 757.83125pt x 447.6725pt>
 File: imgs/tab9.png Graphic file (type png)
 <use imgs/tab9.png>
-Package pdftex.def Info: imgs/tab9.png  used on input line 1065.
+Package pdftex.def Info: imgs/tab9.png  used on input line 1108.
 (pdftex.def)             Requested size: 348.19656pt x 205.69276pt.
- [36
-
- <./imgs/tab9.png>]
-<imgs/tab9b.png, id=261, 733.74126pt x 310.15875pt>
-File: imgs/tab9b.png Graphic file (type png)
-<use imgs/tab9b.png>
-Package pdftex.def Info: imgs/tab9b.png  used on input line 1077.
-(pdftex.def)             Requested size: 348.19656pt x 147.18968pt.
  [37
 
- <./imgs/tab9b.png>]
-<imgs/tab10.png, id=270, 557.08125pt x 403.5075pt>
-File: imgs/tab10.png Graphic file (type png)
-<use imgs/tab10.png>
-Package pdftex.def Info: imgs/tab10.png  used on input line 1089.
-(pdftex.def)             Requested size: 261.14908pt x 189.16214pt.
+ <./imgs/tab9.png>]
+<imgs/tab9b.png, id=256, 733.74126pt x 310.15875pt>
+File: imgs/tab9b.png Graphic file (type png)
+<use imgs/tab9b.png>
+Package pdftex.def Info: imgs/tab9b.png  used on input line 1120.
+(pdftex.def)             Requested size: 348.19656pt x 147.18968pt.
  [38
 
- <./imgs/tab10.png>]
-<imgs/tab10c.png, id=278, 452.69125pt x 309.155pt>
-File: imgs/tab10c.png Graphic file (type png)
-<use imgs/tab10c.png>
-Package pdftex.def Info: imgs/tab10c.png  used on input line 1101.
-(pdftex.def)             Requested size: 217.62202pt x 148.61914pt.
+ <./imgs/tab9b.png>]
+<imgs/tab10.png, id=264, 557.08125pt x 403.5075pt>
+File: imgs/tab10.png Graphic file (type png)
+<use imgs/tab10.png>
+Package pdftex.def Info: imgs/tab10.png  used on input line 1132.
+(pdftex.def)             Requested size: 261.14908pt x 189.16214pt.
  [39
 
- <./imgs/tab10c.png>]
-<imgs/tab11.png, id=286, 607.26875pt x 116.435pt>
-File: imgs/tab11.png Graphic file (type png)
-<use imgs/tab11.png>
-Package pdftex.def Info: imgs/tab11.png  used on input line 1112.
-(pdftex.def)             Requested size: 261.14908pt x 50.0714pt.
+ <./imgs/tab10.png>]
+<imgs/tab10c.png, id=272, 452.69125pt x 309.155pt>
+File: imgs/tab10c.png Graphic file (type png)
+<use imgs/tab10c.png>
+Package pdftex.def Info: imgs/tab10c.png  used on input line 1144.
+(pdftex.def)             Requested size: 217.62202pt x 148.61914pt.
  [40
 
- <./imgs/tab11.png>]
-<imgs/tab12.png, id=294, 630.355pt x 234.8775pt>
-File: imgs/tab12.png Graphic file (type png)
-<use imgs/tab12.png>
-Package pdftex.def Info: imgs/tab12.png  used on input line 1123.
-(pdftex.def)             Requested size: 261.14908pt x 97.30748pt.
+ <./imgs/tab10c.png>]
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 1160.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ts1cmss.fd
+File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+<imgs/tab11.png, id=280, 607.26875pt x 116.435pt>
+File: imgs/tab11.png Graphic file (type png)
+<use imgs/tab11.png>
+Package pdftex.def Info: imgs/tab11.png  used on input line 1160.
+(pdftex.def)             Requested size: 261.14908pt x 50.0714pt.
  [41
 
+ <./imgs/tab11.png>]
+<imgs/tab12.png, id=289, 630.355pt x 234.8775pt>
+File: imgs/tab12.png Graphic file (type png)
+<use imgs/tab12.png>
+Package pdftex.def Info: imgs/tab12.png  used on input line 1176.
+(pdftex.def)             Requested size: 261.14908pt x 97.30748pt.
+ [42
+
  <./imgs/tab12.png>]
-<imgs/tab12b.png, id=302, 555.07375pt x 285.065pt>
+<imgs/tab12b.png, id=297, 555.07375pt x 285.065pt>
 File: imgs/tab12b.png Graphic file (type png)
 <use imgs/tab12b.png>
-Package pdftex.def Info: imgs/tab12b.png  used on input line 1139.
+Package pdftex.def Info: imgs/tab12b.png  used on input line 1197.
 (pdftex.def)             Requested size: 261.14908pt x 134.1154pt.
-<imgs/tab12c.png, id=303, 356.33125pt x 189.70876pt>
+<imgs/tab12c.png, id=298, 356.33125pt x 189.70876pt>
 File: imgs/tab12c.png Graphic file (type png)
 <use imgs/tab12c.png>
-Package pdftex.def Info: imgs/tab12c.png  used on input line 1139.
+Package pdftex.def Info: imgs/tab12c.png  used on input line 1197.
 (pdftex.def)             Requested size: 147.98137pt x 78.78265pt.
 
-Overfull \vbox (8.45926pt too high) detected at line 1139
+Overfull \vbox (8.45926pt too high) detected at line 1197
  []
 
-[42
+[43
 
  <./imgs/tab12b.png> <./imgs/tab12c.png>]
-<imgs/tab13.png, id=312, 734.745pt x 247.92625pt>
+<imgs/tab13.png, id=308, 734.745pt x 247.92625pt>
 File: imgs/tab13.png Graphic file (type png)
 <use imgs/tab13.png>
-Package pdftex.def Info: imgs/tab13.png  used on input line 1158.
+Package pdftex.def Info: imgs/tab13.png  used on input line 1218.
 (pdftex.def)             Requested size: 261.14908pt x 88.12224pt.
-<imgs/tab13c.png, id=313, 678.535pt x 220.825pt>
+<imgs/tab13c.png, id=309, 678.535pt x 220.825pt>
 File: imgs/tab13c.png Graphic file (type png)
 <use imgs/tab13c.png>
-Package pdftex.def Info: imgs/tab13c.png  used on input line 1158.
+Package pdftex.def Info: imgs/tab13c.png  used on input line 1218.
 (pdftex.def)             Requested size: 239.38554pt x 77.90652pt.
- [43
+ [44
 
- <./imgs/tab13.png> <./imgs/tab13c.png>] [44
+ <./imgs/tab13.png> <./imgs/tab13c.png>] [45
 
-] [45
-
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\translate ' on input line 1202.
-
-[46
-
-]
-File: imgs/tab3.png Graphic file (type png)
-<use imgs/tab3.png>
-Package pdftex.def Info: imgs/tab3.png  used on input line 1220.
-(pdftex.def)             Requested size: 348.19656pt x 249.42514pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{fig:my_label}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1220         \end{frame}
-                          
-Overfull \vbox (35.98634pt too high) detected at line 1220
- []
-
-[47
-
-]
-File: imgs/tab4.png Graphic file (type png)
-<use imgs/tab4.png>
-Package pdftex.def Info: imgs/tab4.png  used on input line 1244.
-(pdftex.def)             Requested size: 309.02618pt x 306.7718pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{fig:my_label}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1244             \end{frame}
-                              
-Overfull \vbox (158.44344pt too high) detected at line 1244
- []
-
-[48
-
-]
-File: imgs/tab5.png Graphic file (type png)
-<use imgs/tab5.png>
-Package pdftex.def Info: imgs/tab5.png  used on input line 1267.
-(pdftex.def)             Requested size: 261.14908pt x 376.83025pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{fig:my_label}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1267         \end{frame}
-                          
-Overfull \vbox (217.65083pt too high) detected at line 1267
- []
-
-[49
-
-]
-LaTeX Font Info:    Trying to load font information for U+fplmbb on input line 1297.
- (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ufplmbb.fd
-File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
-) [50
-
-]
-File: imgs/tab6.png Graphic file (type png)
-<use imgs/tab6.png>
-Package pdftex.def Info: imgs/tab6.png  used on input line 1328.
-(pdftex.def)             Requested size: 261.14908pt x 375.75807pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{fig:my_label}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1328             \end{frame}
-                              
-Overfull \vbox (162.31927pt too high) detected at line 1328
- []
-
-[51
-
-]
-File: imgs/tab7.png Graphic file (type png)
-<use imgs/tab7.png>
-Package pdftex.def Info: imgs/tab7.png  used on input line 1346.
-(pdftex.def)             Requested size: 322.08298pt x 244.17772pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{fig:my_label}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1346         \end{frame}
-                          
-Overfull \vbox (93.02669pt too high) detected at line 1346
- []
-
-[52
-
-]
-Overfull \hbox (3.41531pt too wide) detected at line 1390
-[][]
- []
-
-[53
+] [46
 
 ]
 \tf@nav=\write6
@@ -1453,24 +1327,21 @@ Overfull \hbox (3.41531pt too wide) detected at line 1390
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `Koont_2024_slides.out' has not changed.
-(rerunfilecheck)             Checksum: 5BCEA9CF7D2D9AECE7CAC4018E9F6C5B;81.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 31616 strings out of 478268
- 670102 string characters out of 5846347
- 1005949 words of memory out of 5000000
- 48918 multiletter control sequences out of 15000+600000
- 520838 words of font info for 176 fonts, out of 8000000 for 9000
+ 31486 strings out of 478268
+ 668012 string characters out of 5846347
+ 1005746 words of memory out of 5000000
+ 48827 multiletter control sequences out of 15000+600000
+ 515691 words of font info for 156 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,18n,122p,1319b,667s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{mismatch_sorting} has been referenced but does not exist, replaced by a fixed one
-
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfso0800.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfso1000.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on Koont_2024_slides.pdf (53 pages, 1428822 bytes).
+ 128i,18n,122p,1319b,664s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfso0800.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfso1000.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
+Output written on Koont_2024_slides.pdf (46 pages, 1407973 bytes).
 PDF statistics:
- 514 PDF objects out of 1000 (max. 8388607)
- 360 compressed objects within 4 object streams
- 127 named destinations out of 1000 (max. 500000)
- 165 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 440 PDF objects out of 1000 (max. 8388607)
+ 298 compressed objects within 3 object streams
+ 103 named destinations out of 1000 (max. 500000)
+ 157 words of extra memory for PDF output out of 10000 (max. 10000000)
 

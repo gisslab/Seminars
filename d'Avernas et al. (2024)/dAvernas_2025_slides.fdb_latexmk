@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1737698557 "/Users/gisellelab/Work/Seminars/d'Avernas et al. (2024)/dAvernas_2025_slides.tex" "dAvernas_2025_slides.pdf" "dAvernas_2025_slides" 1737698557
-  "/Users/gisellelab/Work/Seminars/d'Avernas et al. (2024)/dAvernas_2025_slides.tex" 1737698553 38231 aedafd0ad24d72f6794e35cbfc157537 ""
+["pdflatex"] 1737837780 "/Users/gisellelab/Work/Seminars/d'Avernas et al. (2024)/dAvernas_2025_slides.tex" "dAvernas_2025_slides.pdf" "dAvernas_2025_slides" 1737837780
+  "/Users/gisellelab/Work/Seminars/d'Avernas et al. (2024)/dAvernas_2025_slides.tex" 1737837779 29941 32f179bcd1d2c5ed7d45f4b221b01dd1 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm" 1136768653 2796 d37c29814a6717720ee1a7c9a0b2c3b8 ""
@@ -279,10 +279,10 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1652674088 2826452 4f53d9de205f8f0a7dd505b85fa7118e ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "dAvernas_2025_slides.aux" 1737698557 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "dAvernas_2025_slides.nav" 1737698556 3062 db13abe3ce6682cd7e6e58f6d766fc08 "pdflatex"
+  "dAvernas_2025_slides.aux" 1737837780 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "dAvernas_2025_slides.nav" 1737837780 3258 168dbea8a3901d4513c3952beca48c01 "pdflatex"
   "dAvernas_2025_slides.out" 0 -1 0 "pdflatex"
-  "dAvernas_2025_slides.tex" 1737698553 38231 aedafd0ad24d72f6794e35cbfc157537 ""
+  "dAvernas_2025_slides.tex" 1737837779 29941 32f179bcd1d2c5ed7d45f4b221b01dd1 ""
   "imgs/fig1.png" 1737663100 324066 480c72ad42d53a8ae12868f13e8f8ee6 ""
   "imgs/fig10.png" 1737663274 211726 4d81a0904ab59b29499a2b4f2cdc7d09 ""
   "imgs/fig2.png" 1737663124 202690 1de92d6f0751b78d774ecef8e39ff1fd ""
@@ -295,6 +295,7 @@
   "imgs/tab2.png" 1737663074 216864 5f6eb298ed0977dbeec406444bd681bb ""
   "imgs/tab3.png" 1737663134 84452 034288cfbf01d630d7f1fa71b4d7c2e6 ""
   "imgs/tab4.png" 1737663241 210844 174c8ff3c9655ca2f7e3ed459db13801 ""
+  "imgs/tab5_foot.png" 1737663251 266558 38d86f70e95daf7a5405d767804e41e5 ""
   "imgs/tab7.png" 1737663285 212987 b4daa4636f10763938a8355bad5967ac ""
   (generated)
   "dAvernas_2025_slides.aux"

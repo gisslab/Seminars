@@ -28,7 +28,7 @@
 
 % \setmainfont{Liberation Serif}
 
-% \setsansfont{Liberation Serif}
+% \setsansfont{Liberation Serif}xx
 
 
 \usepackage{tikz}
@@ -204,7 +204,7 @@
 
 \title[]{\textcolor{blue}{The Deposit Business at Large vs. Small Banks}} %, Rate Dispersion and Profits in 
 
-\subtitle{\textcolor{blue}{Adrien d'Avernas, Andrea L. Eisfeldt,Can Huang,Richard Stanton,Nancy Wallace}}
+\subtitle{\textcolor{blue}{Adrien d'Avernas, Andrea L. Eisfeldt, Can Huang, Richard Stanton, Nancy Wallace}}
 \author{Presenter: Giselle Labrador-Badia}
 % university
 \institute{University of Wisconsin-Madison}
@@ -238,141 +238,58 @@
 \end{frame}
 
 
-
-% \begin{frame}{Introduction}
-
-%     \vspace{0.2cm}
-
-%     \begin{wideitemize}
-%         % \item Deregulation story: short until Riegle Act
-%         \item %\textcolor{blue}{Background:}
-%  Digital banking platforms have become widespread as an alternative to traditional physical branches.
-%         \item Effects on competition are unclear: 
-        
-%         \vspace{0.2cm}
-%         \begin{wideitemize}
-%             \item size distributions of banks (scale economies, lower investment costs),
-%             \item banking products (loans, deposits).
-
-%         \end{wideitemize}
-%         \item Competition $\rightarrow$ stability.
-%         \pause
-%         \item \textcolor{blue}{How does the digital revolution affect competition and stability?} 
-
-%         % \item \textcolor{blue}{Preview of results}:
-%             \vspace{0.2cm}
-%             \begin{wideitemize}
-%                 \vspace{0.2cm}
-%                 \item  $\uparrow$ competition, $\downarrow$ stability.
-
-%             \end{wideitemize}
-
-%         % \item 
-
-%     \end{wideitemize}
-%     % \item Banks compete for deposits
-
-% \end{frame}
-
-% \begin{frame}{Introduction}
-
-%     \begin{wideitemize}
-      
-%         \item \textcolor{blue}{Preview of results}:
-
-%     % \item \textcolor{blue}{Preview of results}:
-%         \vspace{0.2cm}
-%         \begin{wideitemize}
-%             \vspace{0.2cm}
-%             \item  $\uparrow$ competition, $\downarrow$ stability.
-%             \item After digitalization:
-%             \vspace{0.2cm}
-%             \begin{itemize} 
-%                 \item banks operate in more markets, and mid-size banks grow faster.
-%             \item More uninsured deposits in balance sheets, and more loans to high-income borrowers.
-%             \end{itemize}
-%             \item Structural model of the U.S. banking industry to compare counterfactual without digitalization.
-
-%             % \item Provide a theory that rationalizes the observed patterns (framework Oberfield et al. (2024)).
-%             \begin{itemize}
-%                 \vspace{0.2cm}
-%                 \item $\uparrow$ competition, $\downarrow$ stability.
-%                 \item $\uparrow$ consumer surplus and banks profits. 
-
-%             \end{itemize}
-
-%         \end{wideitemize}
-
-
-%     \end{wideitemize}
-% \end{frame}
-
-% \begin{frame}{Introduction}
-
-%     \begin{wideitemize}
-        
-%         \item \textcolor{blue}{Contribution:} 
-%                 \vspace{0.2cm}
-%         \begin{wideitemize}
-%             \item How digital platforms alter competition in banking. \footnote{Dreschsler et al. (2017), Honka et al. (2014), Hatfield and Wallen (2022), Vives and Ye (2022), Jiant et al. (2020)}
-    
-%             \item Effects on banks' screening and monitoring abilities by finding greater per-unit loan losses and more loans to high-income borrowers.
-%             \footnote{Fishman et al. (2017), Stein (2022), and Gornall et al. (2023), Di Maggio and Yao (2021), Liberti and Petersen (2019)}
-            
-%             \item Effect on digital platforms on banks' funding composition and stability. \footnote{Diamond and Dybvig (1983), Egan et al. (2019), Jiang et al. (2023), Drechler et al. (2023), Benmelech et al. (2023).}
-        
-%             \item Banks technology adoption by endogenizing digital platform adoption. \footnote{Vives (2019), Jiang et al. (2022), Haendler (2022).}
-            
-
-%         \end{wideitemize}
-%         % \item Banks compete for deposits
-%     \end{wideitemize}
-    
-% \end{frame}
-    
 % Slide 1: Motivation and Research Questions
-\begin{frame}{Motivation and Research Questions}
+\begin{frame}{Motivation and Research Goals}
     \begin{wideitemize}
         \item Large and small banks differ significantly in how they operate their deposit franchises.
-        \item These differences impact deposit rates, rate elasticities, customer bases, and market strategies.
-        \item \textcolor{blue}{Main Goals/Questions:}
+        \item Difference in deposit rates, rate elasticities, customer bases, and market strategies.
+        \item Large banks: invest in technology and are multi-market.
+        \item Small banks: do not invest in technology and are single-market.
+        \pause
+
+        \item \textcolor{blue}{Goals:}
         \vspace{0.2cm}
         \begin{wideitemize}
             % \item Why do large banks offer uniform deposit rates and lower rates than small banks?
-            \item How do differences in preferences and technologies drive this behavior, rather than market power?
-            \item What are the implications for financial stability and bank valuation?
+            % \item How do differences in preferences and technologies drive this behavior, rather than market power?
+            % \item What are the implications for financial stability and bank valuation?
+            \item Document differences in pricing, customer bases, market, and balance sheet between large and small banks.
+            \item Explain the relationship between bank size and deposit pricing based on preferences and technology.
         \end{wideitemize}
+        \pause
         \item \textcolor{blue}{Trade-offs:}
         \vspace{0.2cm}
         \begin{wideitemize}
             \item Large banks face higher fixed costs for superior service but use uniform pricing.
-            \item Small banks offer higher rates but face higher rate sensitivities and lower service quality.
+            \item Small banks can offer higher rates but face higher rate sensitivities and lower service quality.
         \end{wideitemize}
     \end{wideitemize}
-    \end{frame}
+\end{frame}
     
     % Slide 2: Preview of Results and Contributions
-    \begin{frame}{Preview of Results and Contributions}
+\begin{frame}{Preview of Results and Contributions}
     \begin{wideitemize}
         \item Large banks operate in high-income, densely populated markets with less rate-elastic customers.
         \item Small banks offer higher deposit rates, especially where large banks are absent.
-        \item Empirical evidence supports that uniform pricing by large banks is driven by technology and customer preferences.
+        \item Small and large banks differ in assets and liabilities composition: small banks hold more liquid assets and agricultural loans.
+        \item Empirical evidence supports uniform pricing by large banks.
         \item Structural model links bank size, pricing strategies, and market location decisions.
-        \item Provides insights into deposit franchises’ role in bank valuations and financial stability.
+        % \item Provides insights into deposit franchises' role in bank valuations and financial stability.
     \end{wideitemize}
     \end{frame}
     
     % Slide 3: Literature Connections
     \begin{frame}{Literature}
     \begin{wideitemize}
-        \item Deposit pricing and competition \footnote{ Drechsler et al. (2017, 2021), Jiang et al. (2023),Egan et al. (2017), Xiao (2020),
-        Granja and Paxiao (2024).}
+        \item Deposit pricing and competition \footnote{ Drechsler et al. (2017, 2021), Jiang et al. (2023), Egan et al. (2017), Xiao (2020),
+ Granja and Paxiao (2024).}
         \item Bank valuation and deposit franchises \footnote{Minton et al. (2019), Egan et al. (2022)}
-        \item Bank industry equilibrium models \footnote{Corbae and D’Erasmo (2021, 2013), Wang et al. (2022).}
+        \item Bank industry equilibrium models \footnote{Corbae and D'Erasmo (2021, 2013), Wang et al. (2022).}
         \item Technology adoption and services \footnote{Haendler (2023), Sarkisyan (2023).}
+        \item Uniform price setting \footnote{Granja and Paxiao (2024), Gentzkow and Shapiro (2014).}
 
     \end{wideitemize}
-    \end{frame}
+\end{frame}
     
     
 % ********************************************************************************************************************
@@ -380,151 +297,134 @@
 
 \begin{frame}[noframenumbering]
 
-    \huge \centering \textcolor{blue}{Model}
-    % \\
-    % \centering \textcolor{blue}{Banking for large and small banks}
-    
+\huge \centering \textcolor{blue}{Model}
+% \\
+% \centering \textcolor{blue}{Banking for large and small banks}
+
+\end{frame}
+
+
+\begin{frame}{ Demand for banking services}
+
+    \begin{wideitemize}
+
+        \item $k \in \{1, ..., K\}$ local markets with mass of $M_k$ depositors.
+        
+        \item Each depositor is endowed with one dollar.
+
+        \item Depositor $i$ in $k$ and maximize utility:
+        
+        \begin{equation}
+        \max _{j \in \mathcal{B}_k} \quad \mu_{i b}=\alpha_{k} (r_j - r_f) + \beta_k x_j + \epsilon_{ijk} = - \alpha_{k} s_j + \beta_k x_j + \epsilon_{ijk}
+        \end{equation}
+
+        \begin{itemize}
+            \item $r_j$ is the deposit interest rate on bank $j$ (uniform), 
+            \item $r_f$ is the competitive risk-free rate,
+            \item $x_j$ are bank characteristics,
+            \item $\epsilon_{ijk}$ is the idiosyncratic taste for bank $j$ that distributes as a T1EV.
+        \end{itemize}
+
+        \item Total demand is $D_{jk} = M_k d_{jk}$.
+ Market share of bank $j$ in $k$ is: 
+        $$ 
+ d_{jk} = \frac{\exp (-\alpha_k s_j + \beta_k x_j)}{1 + \sum_{j' \in \mathcal{B}_k} \exp (-\alpha_k s_{j'} + \beta_k x_{j'})}
+        $$
+    \end{wideitemize}
+
+
     \end{frame}
 
+\begin{frame}{Banks}
 
-    \begin{frame}{ Demand for banking services}
-    
-        \begin{wideitemize}
+    \begin{wideitemize}
+    \item Bank $j$'s problem is: 
+    \begin{equation}
+    \begin{aligned}
+        \max _{x_j, b_{jk},s_j} & \quad \sum_{k\in\mathcal{M}_j}^K ((s_j-c)D_{jk} - \kappa_k)b_{jk} - \chi x_j  \\
+        \end{aligned}
+    \end{equation}
 
-            \item $k \in \{1, ..., K\}$ local markets with mass of $M_k$ depositors.
-            
-            \item Each depositors is endowed with one dollar.
-    
-            \item Depositor $i$ in $k$ and maximize utility:
-            
-            \begin{equation}
-            \max _{j \in \mathcal{B}_k} \quad \mu_{i b}=\alpha_{k} (r_j - r_f) + \beta_k x_j + \epsilon_{ijk} = - \alpha_{k} s_j + \beta_k x_j + \epsilon_{ijk}
-            \end{equation}
-    
-            \begin{itemize}
-                \item $r_j$ is the deposit interest rate on bank $j$ (uniform), 
-                \item $r_f$ is the competitive risk-free rate,
-                \item $x_j$ are bank characteristics,
-                \item $\epsilon_{ijk}$ is the idiosyncratic taste for bank $j$ that distributes as a T1EV.
-            \end{itemize}
-  
-            \item Total demand is $D_{jk} = M_k d_{jk}$.
-            Market share of bank $j$ in $k$ is: 
-            $$ 
-            d_{jk} = \frac{\exp (-\alpha_k s_j + \beta_k x_j)}{1 + \sum_{j' \in \mathcal{B}_k} \exp (-\alpha_k s_{j'} + \beta_k x_{j'})}
-            $$
+    \begin{itemize}
+        \item $b_{jk}=1$ if the banks decides to operate in $k$,
+        \item $c$ is the variable costs of servicing deposits (marginal?),
+        \item $\kappa$ is the cost of opening a branch in $k$,
+        \item $\chi$ is the cost of of additional financial services $x_j \in \{0,1\}$, and,
+        \item $\mathcal{M}_j$ is the set of markets in which bank $j$ operates ($k: b_{jk}=1$).
+    \end{itemize}
+    \pause
+    \item The deposit rate that maximizes profits is:
+        \begin{equation}
+            \begin{align}
+        \sum_{k\in\mathcal{M}_j}^K D_{jk} + (s_j-c)   \sum_{k\in\mathcal{M}_j}^K \frac{\partial D_{jk}}{\partial s_j} &= 0 \\
+ s_j = c -(\eta_j^s)^{-1} 
+        \end{align}
+        \end{equation}
+
+    \item where $\eta_j^s$ is the weighted semielasticity of demand for bank $j$, $\eta_j^s = \sum_{k\in\mathcal{M}_j}^K \frac{\alpha_k D_{jk} (1-d_{jk})}{\sum_{k\in\mathcal{M}_j}^K D_{jk}}$.
         \end{wideitemize}
     
-    
-        \end{frame}
+\end{frame}
 
-            \begin{frame}{Banks}
+
+\begin{frame}{Model implications}
+
+    \begin{wideitemize}
+        \item \textcolor{blue}{Assumptions:} 
+        \begin{itemize}
+            \item $b_{jk} = 1$ if and only if $(s_j -c)D_{jk} >\kappa $.
+            \item Single-market banks do not invest in financial services, $x_j = 0$.
+        \end{itemize}
+        \item Entry in a market means acquiring an existing branch at market value $\kappa$.
+        \item \textcolor{blue}{Equilibrium}: Given the parameters $\theta = \{\alpha_k, \beta_k, c, \kappa, \chi, M_k\}_{k=1}^K$, the equilibrium is a set of choices $j_{ik}^*$, $b_{jk}^*$, $x_j$ and $s_j^*$ such that it solves (1) and (2) for all $i$, $j$ and $k$, market clears and free entry holds.
+        
+        \pause
+        \item \textcolor{blue}{Proposition 1. (Free-entry condition)} 
+ The free-entry condition in market $k$ is such that the number of single-market banks (superscript $S$) entering market $k$ is given by
+        $$
+ N_k^S=\left\lfloor\frac{M_k}{\kappa_k \alpha_k}-\Omega_k e^{\alpha_k s_k^S-\beta_k x_k^S}+1\right\rfloor \quad \text { if } \quad N_k^S>0\right.
+        $$
+ where $\theta_k \in[0,1), \Omega_k=\sum_{i \in \mathcal{ L}_k} \exp \left(-\alpha_k s_i+\beta_k x_i\right)$, and $\mathcal{L}_k \equiv\left\{j: b_{j k}=1\right.$ and $\left.\left|\mathcal{M}_j\right|>1\right\}$ is the set of multi-market banks entering market $k$.
+
+
+    \end{wideitemize}
+
+
+\end{frame}
             
-                \begin{wideitemize}
-                \item Bank $j$'s problem is: 
-                \begin{equation}
-                \begin{aligned}
-                    \max _{x_j, b_{jk},s_j} & \quad \sum_{k\in\mathcal{M}_j}^K ((s_j-c)D_{jk} - \kappa_k)b_{jk} - \chi x_j  \\
-                    \end{aligned}
-                \end{equation}
-
-                \begin{itemize}
-                    \item $b_{jk}=1$ if the banks decides to operate in $k$,
-                    \item $c$ is the variable costs of servicing deposits (marginal?),
-                    \item $\kappa$ is the cost of opening a branch in $k$,
-                    \item $\chi$ is the cost of of additional funancial services $x_j \in \{0,1\}$, and,
-                    \item $\mathcal{M}_j$ is the set of markets in which bank $j$ operates ($k: b_{jk}=1$).
-                \end{itemize}
-                \item The deposit rate that maximizes profits is:
-                    \begin{equation}
-                        \begin{align}
-                    \sum_{k\in\mathcal{M}_j}^K D_{jk} + (s_j-c)   \sum_{k\in\mathcal{M}_j}^K \frac{\partial D_{jk}}{\partial s_j} &= 0 \\
-                    s_j = c -(\eta_j^s)^{-1} 
-                    \end{align}
-                    \end{equation}
-
-                \item where $\eta_j^s$ is the weighted semielasticity of demand for bank $j$, $\eta_j^s = \sum_{k\in\mathcal{M}_j}^K \frac{\alpha_k D_{jk} (1-d_{jk})}{\sum_{k\in\mathcal{M}_j}^K D_{jk}}$.
-                    \end{wideitemize}
-                
-            \end{frame}
+\begin{frame}{Model implications}
             
+    \begin{wideitemize}
+
+        \item \textit{Large banks}, $L$, operate in multiple markets and invest in financial services.
+        
+        \item \textit{Small banks}, $S$, operate in one market and do not invest in financial services.
+        
+        \item  \textcolor{blue}{Proposition 2. (Small banks operate in one market)}   If $x_j=0$, then $\left|\mathcal{M}_j\right|=1$.
+
+    \end{wideitemize}
+\end{frame}
             
-            \begin{frame}{Model implications}
+\begin{frame}{Model implications}
             
-                \begin{wideitemize}
-                    \item \textcolor{blue}{Assumption:} $b_{jk} = 1$ if and only if $(s_j -c)D_{jk} >\kappa $.
-                    \item Entry in a market means acquiring an existing branch at market value $\kappa$.
-                    \item \textcolor{blue}{Equilibrium}: Given the parameters $\theta = \{\alpha_k, \beta_k, c, \kappa, \chi, M_k\}_{k=1}^K$, the equilibrium is a set of choices $j_{ik}^*$, $b_{jk}^*$, $x_j$ and $s_j^*$ such that it solves (1) and (2) for all $i$, $j$ and $k$, market clears and free entry holds.
-                    \item \textcolor{blue}{Proposition 1. (Free-entry condition)} 
-                    The free-entry condition in market $k$ is such that the number of single-market banks (suprascript $S$) entering market $k$ is given by
-                    $$
-                    N_k^S=\left\lfloor\frac{M_k}{\kappa_k \alpha_k}-\Omega_k e^{\alpha_k s_k^S-\beta_k x_k^S}+1\right\rfloor\left(\quad \text { if } \quad N_k^S>0\right.
-                    $$
-                    where $\theta_k \in[0,1), \Omega_k=\sum_{i \in \mathcal{ L}_k} \exp \left(-\alpha_k s_i+\beta_k x_i\right)$, and $\mathcal{L}_k \equiv\left\{j: b_{j k}=1\right.$ and $\left.\left|\mathcal{M}_j\right|>1\right\}$ is the set of multi-market banks entering market $k$.
+    \begin{wideitemize}
 
+        \item  \textcolor{blue}{Proposition 2. (Small banks operate in one market)}   If $x_j=0$, then $\left|\mathcal{M}_j\right|=1$.
 
-                \end{wideitemize}
-                
-                
-            
-            \end{frame}
-            % Proposition 2 derives an equilbrium result with two types of banks. We have large banks $(L)$ that invest in financial services and operate across various markets by opening multiple branches, and small banks $(S)$ that do not invest in financial services and only open a branch in a single market. We use the superscript $S$ or $L$ to denote choice variables pertaining to small or large banks, respectively.
+        \item \textcolor{blue}{Proposition 3. (Collocation markets' demand)}  
+        
+        \textit{Collocations markets}, $C$, are those where both large and small banks operate.
+ If $i \in C$, the ratio of deposits supplied by small and large banks is given by
+        $$ \frac{D_{jk}^S}{D_{jk}^L} = \exp(\alpha_k (s^L - s^S) - \beta_k)$$ 
+ where $C = \{k: \exists j, b_{jk}=1 \text{ and } |\mathcal{M}_j|>1\}$.
 
-% Proposition 2 (Small banks operate in one market). If $x_j=0$, then $\left|\mathcal{M}_j\right|=1$.
-% These results highlight the trade-off between bearing the cost of financial-service technologies, which is profitable only when operating at a large scale across multiple markets, and the capacity of small banks to set rates fine-tuned to individual markets. In other words, a bank constrained to set a deposit spread different from the optimal spread in a given market cannot compete with other unrestricted single-branch banks, unless it also offers additional financial services. ${ }^{14}$ 
-%             As we demonstrate below, the model ofers strong predictions regarding the disparity
-% between markets where large banks operate and markets with only small banks. For these
-% propositions, we defne collocation markets to be the set of markets C where both small and
-% large banks operate, C = {k : ∃j, bjk = 1 and |Mj > 1|}. Proposition 3 provides a condition
-% for such markets.
-% Proposition 3 (Collocation markets’ demand). If i ∈ C, the ratio of deposits supplied by
-% small and large banks is given by
-% ! Dk
-% S
-% � L S log = α s − s − βk. (13) j k DL
-% jk
-% Proposition 3 illustrates that in collocation markets, small banks engage in competition
-% for deposits by ofering lower deposit spreads, while large banks beneft from the preference
-% for fnancial services βk.
+        $\rightarrow$ Small banks have smaller spreads and large banks benefit from financial services.
 
-% Proposition 4 (Deposit spreads and average spread semi-elasticity). Given (7), si < sj if
-%                 and only if |ηs| > |ηs|.
-            
-            \begin{frame}{Model implications}
-            
-            \begin{wideitemize}
-
-                \item \textit{Large banks}, $L$, operate in multiple markets and invest in financial services.
-                
-                \item \textit{Small banks}, $S$, operate in one market and do not invest in financial services.
-                
-                \item  \textcolor{blue}{Proposition 2. (Small banks operate in one market)}   If $x_j=0$, then $\left|\mathcal{M}_j\right|=1$.
-                \item \textcolor{blue}{Collocation markets’ demand}  If $i \in C$, the ratio of deposits supplied by small and large banks is given by
-                $$ \frac{D_{jk}^S}{D_{jk}^L} = \exp(\alpha_k s^L - s^S - \beta_k)$$
-                where $C = \{k: \exists j, b_{jk}=1 \text{ and } |\mathcal{M}_j|>1\}$.
-
-                \item  \textcolor{blue}{Proposition 4. (Deposit spreads and average spread semi-elasticity)} $s_i < s_j$ if and only if $|\eta_i^s| > |\eta_j^s|$.
-            \end{wideitemize}
-            \end{frame}
-            
-%             Proposition 5 (Large banks' location). If
-
-% $$
-% \frac{\alpha_k}{\left|\eta_j^s\right|}-\log \left(\frac{\alpha_k}{\left|\eta_j^s\right|}\right) \beta 1+\beta_k x_j+\frac{\kappa_k \alpha_k}{M_k}
-% $$
-
-% then bank $j$ does not locate in market $k$.
-% Given a distribution of $\alpha_k$ 's, large banks maximize their profits by choosing a deposit spread that allows them to open branches in the largest possible number of markets. If the distribution is heavily skewed, we would therefore expect large banks to locate in markets close to the median, and neglect markets with large sensitivities to deposit rates.
-
-% Proposition 6 demonstrates that if we observe two markets-one where a large bank locates and another where it does not locate - then the latter market must have a rate sensitivity that is further away from its semi-elasticity $\eta^s$.
-% Proposition 6 (Collocation markets). Assume that $M_k / \kappa_k \geq M_{\ell} / \kappa_{\ell}$ and $\beta_k \leq \beta_{\ell}$. If $k \in \mathcal{M}_j$ and $\ell \notin \mathcal{M}_j$, then
-
-% $$
-% \frac{\alpha_k}{\left|\eta_j^s\right|}-\log \left(\frac{\alpha_k}{\left|\eta_j^s\right|}\right)\left(<\frac{\alpha_{\ell}}{\left|\eta_j^s\right|}-\log \left(\frac{\alpha_{\ell}}{\left|\eta_j^s\right|}\right)(\right.
-% $$
-
-
-% Proposition 7 demonstrates how heterogeneity in market competition differs whether the heterogeneity is driven by difference in entry costs or the rate sensitivities. For simplicity, consider a market with only small banks. If the cost of opening a branch $\kappa_k$ increases, then net profits decrease, fewer banks enter, and competition, measured by deposit spreads or the
+        \pause 
+        \item  \textcolor{blue}{Proposition 4. (Deposit spreads and average spread semi-elasticity)} $s_i < s_j$ if and only if $|\eta_i^s| > |\eta_j^s|$.
+        $\rightarrow$ For small banks with lower spreads, the semi-elasticity of demand is higher.
+    \end{wideitemize}
+\end{frame}
 
 \begin{frame}{Model implications}
             
@@ -534,44 +434,33 @@
         $$
         \frac{\alpha_k}{\left|\eta_j^s\right|}-\log \left(\frac{\alpha_k}{\left|\eta_j^s\right|}\right) \beta 1+\beta_k x_j+\frac{\kappa_k \alpha_k}{M_k}
         $$
+        $\rightarrow$ Large banks locate in markets with $\alpha_k$ far away (lower) than their $\eta_j^s$.
+        % $\rightarrow$ Large banks locate in markets with higher demand and lower rate sensitivities.
+        \pause
         \item \textcolor{blue}{Proposition 6. (Collocation markets)} If $k \in \mathcal{M}_j$ and $\ell \notin \mathcal{M}_j$, then 
         $$
         \frac{\alpha_k}{\left|\eta_j^s\right|}-\log \left(\frac{\alpha_k}{\left|\eta_j^s\right|}\right)<\frac{\alpha_{\ell}}{\left|\eta_j^s\right|}-\log \left(\frac{\alpha_{\ell}}{\left|\eta_j^s\right|}\right)
         $$
+        $\rightarrow$ Markets without large banks large banks have distant $alpha_k$ from $\eta_j^s$.
     \end{wideitemize}
     \end{frame}
-    % have that net profits decrease and fewer banks enter. However competition, as measured by deposit spreads, improves! From the perspective of a bank, a market with higher rate semi-elasticity is a more competitive environment, while a market with a higher entry cost is less competitive. However, HHI only depends on the number of banks, which decreases in both cases. In the next section, we find that $\alpha_k$ explains more variation in deposit spreads than HHI.
-
-    % Proposition 7 (Herfindahl-Hirschman index). If $k \notin \mathcal{C}$, then
-    
-    % $$
-    % d_k^S=\frac{1}{1+\frac{M_k}{\kappa_k \alpha_k}}, \quad s_k^S=c+\frac{1}{\alpha_k}+\frac{\kappa_k}{M_k}, \quad \text { and } H H I_k=\frac{10000}{1+\frac{M_k}{\kappa_k \alpha_k}} .
-    % $$
-    
-    
-    % Thus,
-    
-    % $$
-    % \frac{\partial s_k^S}{\partial \alpha_k} \frac{\partial \alpha_k}{\partial H H I_k}<0 \text { and } \frac{\partial s_k^S}{\partial \kappa_k} \frac{\partial \kappa_k}{\partial H H I_k}>0
-    % $$
-    
-    
-    % In the next sections, we first verify the assumptions that banks tend to set uniform rates. Then, we test the predictions that large banks tend to offer lower deposit rates and locate in areas in which rate semi-elasticity is closer to the median.
-
+  
     \begin{frame}{Model implications}
 
         \begin{wideitemize}
     
             \item \textcolor{blue}{Proposition 7. (Herfindahl-Hirschman index)} If $k \notin \mathcal{C}$, then
             $$
-            d_k^S=\frac{1}{1+\frac{M_k}{\kappa_k \alpha_k}}, \quad s_k^S=c+\frac{1}{\alpha_k}+\frac{\kappa_k}{M_k}, \quad \text { and } H H I_k=\frac{10000}{1+\frac{M_k}{\kappa_k \alpha_k}} .
+ d_k^S=\frac{1}{1+\frac{M_k}{\kappa_k \alpha_k}}, \quad s_k^S=c+\frac{1}{\alpha_k}+\frac{\kappa_k}{M_k}, \quad \text { and } H H I_k=\frac{10000}{1+\frac{M_k}{\kappa_k \alpha_k}} .
             $$
             \item Thus,
             $$
             \frac{\partial s_k^S}{\partial \alpha_k} \frac{\partial \alpha_k}{\partial H H I_k}<0 \text { and } \frac{\partial s_k^S}{\partial \kappa_k} \frac{\partial \kappa_k}{\partial H H I_k}>0
             $$
 
-  \item This predictions will be tested. 
+  $\rightarrow$ Markets with larger $\alpha$, have lower spreads and higher HHIs. \\
+    $\rightarrow$ Markets with higher $\kappa$, have higher spreads and higher HHIs.
+
         \end{wideitemize}
         \end{frame}
 % ********************************************************************************************************************
@@ -580,7 +469,7 @@
     
     \begin{wideitemize}
         \item \textcolor{blue}{Data sources:}
-        \item \vspace{0.2cm}
+        \vspace{0.2cm}
           \begin{wideitemize}
             \item Call Reports
             \item SOD from the FDIC
@@ -592,6 +481,8 @@
 
         % \item County-level data on population and income from the Census and BEA.
         \item \textcolor{blue}{Sample:} unbalanced annual panel of U.S. commercial banks from 2001 to 2019.
+        
+        \item Large banks are the 14 largest banks by assets.
         
         \item For estimation, counties are clustered using BFS algorithms, resulting in $\approx 543$. 
     \end{wideitemize}
@@ -610,8 +501,8 @@
 
 \begin{frame}{Rate-setting behavior of large and small banks}
 % Summary: In this section, we document that rate setting is uniform across branches within banks which
-%is an assumption that we use both in our model and in our empirical work. We also reveal
-%a consistent pattern where large banks ofer lower deposit rates across a range of deposit products compared to small banks. Furthermore, small banks located in areas with a higher market share of large banks tend to set lower deposit rates than those in regions where large banks are less prevalent. These fndings are consistent with the predictions made by our model on bank rate-setting behavior.
+%is an assumption that we use both in our model and our empirical work. We also reveal
+%a consistent pattern where large banks offer lower deposit rates across a range of deposit products compared to small banks. Furthermore, small banks located in areas with a higher market share of large banks tend to set lower deposit rates than those in regions where large banks are less prevalent. These findings are consistent with the predictions made by our model on bank rate-setting behavior.
     \begin{itemize}
         \item Sources of variation by regressing: $Rate_{branch,t} \text{FE} + \epsilon_{branch,t}$.
         \item Most of the variation in deposit rates is across banks/year. 
@@ -640,7 +531,7 @@
     \begin{column}{0.5\textwidth}
         
         \begin{wideitemize}
-            \item Two steps regressions, first time, then bank and market characteristics.
+            \item Two-step regressions, first time, then bank and market characteristics.
             \item Suggest bank and bank size, not market characteristics, drive rating.
         \end{wideitemize}
     \end{column}
@@ -674,8 +565,11 @@
 
 \end{frame}
     
-    \begin{frame}{Deposit rates and market shares of large banks}
+\begin{frame}{Deposit rates and market shares of large banks}
 
+        \begin{itemize}
+            \item Small banks located in areas where large banks have higher market shares.
+        \end{itemize}
     
         \begin{figure}
             \centering
@@ -684,17 +578,17 @@
             % \label{fig:my_label}
         \end{figure}
         
-    \end{frame}
+\end{frame}
 
 % ********************************************************************************************************************
 \begin{frame}{Large banks are concentrated in large markets}
 
     % \begin{wideitemize}
     
-        \begin{wideitemize}
-            %How did this expansion affect spatial sorting patterns? 
-            \item bla bla
-    \end{wideitemize}
+    % \begin{wideitemize}
+    %         %How did this expansion affect spatial sorting patterns? 
+    %         \item bla bla
+    % \end{wideitemize}
     
     \begin{figure}
     \centering
@@ -706,12 +600,10 @@
 \begin{frame}{Smaller banks have more branches in small markets}
 
     % \begin{wideitemize}
-    
     %     \begin{wideitemize}
     %         %How did this expansion affect spatial sorting patterns? 
     %         \item bla bla
     % \end{wideitemize}
-    
     \begin{figure}
     \centering
     \includegraphics[width=0.8\textwidth]{imgs/fig4.png}
@@ -719,7 +611,7 @@
     % \label{fig:my_label}
     \end{figure}
     
-    \end{frame}
+\end{frame}
 
 \begin{frame}{Customer demographics}
     
@@ -730,14 +622,14 @@
     
     \begin{figure}
     \centering
-    \includegraphics[width=0.8\textwidth]{imgs/fig5.png}
+    \includegraphics[width=0.74\textwidth]{imgs/fig5.png}
     %\caption*{Caption}
     % \label{fig:my_label}
     \end{figure}
     
-    \end{frame}
+\end{frame}
 
-    \begin{frame}{Customer demographics}
+\begin{frame}{Customer demographics}
 
         % \begin{wideitemize}
         
@@ -755,20 +647,20 @@
         % \label{fig:my_label}
         \end{figure}
         
-        \end{frame}
+\end{frame}
     
     
 
 
 % * Possible summary slide with evidence
 
-% 5.3 Market selection conclusions
+% 5.3 Market Selection Conclusions
 % In summary, the asset and liability structures of small and large banks are consistent with
-% segmentation between their customer bases and with diferences in rate-setting behavior
-% arising from variation in the production functions of large and small banks. We fnd that
+% segmentation between their customer bases and with differences in rate-setting behavior
+% arising from variations in the production functions of large and small banks. We find that
 % large banks typically operate in densely populated markets with higher household income,
-% housing prices, and fewer elderly individuals and they hold more complex fnancial assets,
-% consistent with technological diferences between large and small banks.
+% housing prices, and fewer elderly individuals and they hold more complex financial assets,
+% consistent with technological differences between large and small banks.
 % \begin{frame}{Market selection conclusions}
 
 % \vspace{0.1cm}
@@ -796,17 +688,6 @@
         % * Nice slide with colored equations 
 
 
-% $$
-% U_{i, j, k, t}=-\alpha_i s_{j, k, t}+\beta X_{j, k, t}+\xi_{j, k, t}+\epsilon_{i, j, k, t}
-% $$
-
-% where $\xi_{j, k, t}=\xi_j+\xi_{k, t}+\Delta \xi_{j, k, t}$ consists of bank fixed effects $\xi_j$, market fixed effects $\xi_{k, t}$, and unobserved product characteristics $\Delta \xi_{j, k, t}$, where $\Delta \xi_{j, k, t}=\xi_{j, k, t}-\xi_j-\xi_{k, t}$. We allow customers to have heterogeneous rate sensitivity, represented by a normal distribution dependent on customer demographic $D_i$, i.e., $\alpha_i=\alpha+\Pi D_i+\sigma \nu_i$, where $\nu_i \sim N(0,1)$. The shock term $\epsilon_{i, j, k, t}$ is a stochastic term capturing customer-product specific shocks, which we assume follow a Type I extreme-value distribution with $F(x)=e^{-e^{-x}}$.
-
-
-
-
-
-
 \begin{frame}{Estimation}
 
     % \begin{wideitemize}
@@ -822,7 +703,7 @@
             \item The utility specification is
             $$
             \begin{aligned}
-            U_{i, j, k, t} & =-\alpha s_{j, k, t}-\left(\Pi D_i+\sigma \nu_i\right) s_{j, k, t}+\beta X_{j, k, t}+\xi_{j, k, t}+\epsilon_{i, j, k, t} \\
+ U_{i, j, k, t} & =-\alpha s_{j, k, t}-\left(\Pi D_i+\sigma \nu_i\right) s_{j, k, t}+\beta X_{j, k, t}+\xi_{j, k, t}+\epsilon_{i, j, k, t} \\
             & =\delta_{j, k, t}-\left(\Pi D_i+\sigma \nu_i\right) s_{j, k, t}+\epsilon_{i, j, k, t}
             \end{aligned}
             $$
@@ -834,7 +715,7 @@
 
     $$
     \begin{aligned}
-    d_{j, k, t}\left(X_{j, k, t}, s_{j, k, t} ; \alpha, \Pi, \beta, \sigma\right) & =\int\left(d_{i, j, k, t} d F_D(D) d F_\nu(\nu)\right. \\
+ d_{j, k, t}\left(X_{j, k, t}, s_{j, k, t} ; \alpha, \Pi, \beta, \sigma\right) & =\int\left(d_{i, j, k, t} d F_D(D) d F_\nu(\nu)\right. \\
     & =\frac{1}{N} \sum_{i=1}^N \frac{\exp \left(\delta_{j, k, t}+\left(\Pi D_i+\sigma \nu_i\right) s_{j, k, t}\right)}{1+\sum_{l=1}^{J+1} \exp \left(\delta_{l, k, t}+\left(\Pi D_i+\sigma \nu_i\right) s_{l, k, t}\right)},
     \end{aligned}
     $$
@@ -876,30 +757,26 @@
 \end{frame}
 
 
+\begin{frame}{Estimation results}
+    % \begin{wideitemize}
+    %     \item 
+    % \end{wideitemize}
+
+    \begin{figure}
+    \centering
+    \includegraphics[width=0.81\textwidth]{imgs/tab5_foot.png}
+    \end{figure}
+\end{frame}
 
 
 
-% \begin{frame}{Corporate deposits are flowing to banks with digital platforms}
-%     % \begin{itemize}
-%     %     % \item conclusions of table here
-%     % \end{itemize}
-
-%     \begin{figure}
-%     \centering
-%     \includegraphics[width=0.7\textwidth]{imgs/tab6.png}
-%     %\caption*{Caption}
-%     % \label{fig:my_label}
-%     % \caption*{Standard errors are two-way clustered at the state and bank level.}
-%     \end{figure}
-
-% \end{frame}
 
 
 \begin{frame}{Rate semi-elasticities}
 
-    \begin{itemize}
-    \item Bank expansion into new counties driven by high-income borrowers.
-    \end{itemize}
+    % \begin{itemize}
+    % \item Bank expansion into new counties driven by high-income borrowers.
+    % \end{itemize}
         \begin{figure}
             \centering
             \includegraphics[width=0.7\textwidth]{imgs/fig9_foot.png}
@@ -913,9 +790,9 @@
 
     \begin{frame}{Rate semi-elasticities and market shares}
 
-    \begin{itemize}
-    \item Bank expansion into new counties driven by high-income borrowers.
-    \end{itemize}
+    % \begin{itemize}
+    % \item Bank expansion into new counties driven by high-income borrowers.
+    % \end{itemize}
         \begin{figure}
             \centering
             \includegraphics[width=0.65\textwidth]{imgs/fig10.png}
@@ -942,8 +819,8 @@
         
 
             \begin{wideitemize}
-                \item  Similar residual analysis with two-stage.
-                \item The semielasticity-time FE accounts for between 12 \% and 26.5\% of the variation in deposit rates.
+                \item Similar residual analysis with two stages.
+                \item The semi-elasticity-time FE accounts for between 12 \% and 26.5\% of the variation in deposit rates.
                 % \item This is higher than the time FE alone.
             \end{wideitemize}
         \end{column}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.15)  24 JAN 2025 00:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.15)  25 JAN 2025 14:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -955,223 +955,275 @@ Package caption Info: End \AtBeginDocument code.
 
 ] [3
 
-]
-LaTeX Font Info:    Trying to load font information for OML+zplm on input line 375.
- (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/omlzplm.fd
-File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
-)
-LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 375.
- (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/omszplm.fd
-File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
-)
-LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 375.
- (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/omxzplm.fd
-File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
-)
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 375.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 375.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 375.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 375.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 375.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 375.
-LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 375.
- (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ot1zplm.fd
-File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
-)
-LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 375.
- (/usr/local/texlive/2022/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
-File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mathkerncmss.
-)
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 375.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 375.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 375.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 375.
- [4
+] [4
 
 ] [5
 
 ]
+LaTeX Font Info:    Trying to load font information for OML+zplm on input line 292.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/omlzplm.fd
+File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 292.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/omszplm.fd
+File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 292.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/omxzplm.fd
+File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
+)
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 419.
+(Font)              scaled to size 10.42007pt on input line 292.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 419.
+(Font)              scaled to size 7.91925pt on input line 292.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 292.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 419.
+(Font)              scaled to size 10.42007pt on input line 292.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 419.
+(Font)              scaled to size 7.91925pt on input line 292.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 292.
+LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 292.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ot1zplm.fd
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+)
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 292.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
+File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mathkerncmss.
+)
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 292.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 292.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 292.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 292.
  [6
+
+] [7
+
+]
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 336.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 336.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 336.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 336.
+ [8
 
 ]
 
-/Users/gisellelab/Work/Seminars/d'Avernas et al. (2024)/dAvernas_2025_slides.tex:449: Package amsmath Error: Erroneous nesting of equation structures;
+/Users/gisellelab/Work/Seminars/d'Avernas et al. (2024)/dAvernas_2025_slides.tex:367: Package amsmath Error: Erroneous nesting of equation structures;
 (amsmath)                trying to recover with `aligned'.
 
 See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.449             \end{frame}
-                             
+l.367 \end{frame}
+                 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[7
+[9
 
-] [8
+]
 
-] [9
+/Users/gisellelab/Work/Seminars/d'Avernas et al. (2024)/dAvernas_2025_slides.tex:367: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
 
-] [10
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.367 \end{frame}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-] [11
+[10
 
-] [12
+]
+/Users/gisellelab/Work/Seminars/d'Avernas et al. (2024)/dAvernas_2025_slides.tex:393: Extra \right.
+\beamer@doifinframe ... if } \quad N_k^S>0\right .
+                                                   $$ where $\theta _k \in [...
+l.393 \end{frame}
+                 
+I'm ignoring a \right that had no matching \left.
+
+[11
+
+]
+/Users/gisellelab/Work/Seminars/d'Avernas et al. (2024)/dAvernas_2025_slides.tex:393: Extra \right.
+\beamer@doifinframe ... if } \quad N_k^S>0\right .
+                                                   $$ where $\theta _k \in [...
+l.393 \end{frame}
+                 
+I'm ignoring a \right that had no matching \left.
+
+[12
 
 ] [13
 
+] [14
+
+] [15
+
+] [16
+
+] [17
+
+] [18
+
+] [19
+
+] [20
+
 ]
-<imgs/tab1.png, id=98, 853.1875pt x 364.36125pt>
+<imgs/tab1.png, id=134, 853.1875pt x 364.36125pt>
 File: imgs/tab1.png Graphic file (type png)
 <use imgs/tab1.png>
-Package pdftex.def Info: imgs/tab1.png  used on input line 626.
+Package pdftex.def Info: imgs/tab1.png  used on input line 517.
 (pdftex.def)             Requested size: 300.31944pt x 128.25665pt.
- [14
+ [21
 
  <./imgs/tab1.png>]
-<imgs/tab2.png, id=106, 693.59125pt x 605.26125pt>
+<imgs/tab2.png, id=142, 693.59125pt x 605.26125pt>
 File: imgs/tab2.png Graphic file (type png)
 <use imgs/tab2.png>
-Package pdftex.def Info: imgs/tab2.png  used on input line 649.
+Package pdftex.def Info: imgs/tab2.png  used on input line 540.
 (pdftex.def)             Requested size: 206.74025pt x 180.40685pt.
- [15
+ [22
 
  <./imgs/tab2.png>]
-<imgs/fig1.png, id=113, 980.66376pt x 644.4075pt>
+<imgs/fig1.png, id=149, 980.66376pt x 644.4075pt>
 File: imgs/fig1.png Graphic file (type png)
 <use imgs/fig1.png>
-Package pdftex.def Info: imgs/fig1.png  used on input line 662.
+Package pdftex.def Info: imgs/fig1.png  used on input line 553.
 (pdftex.def)             Requested size: 330.78308pt x 217.35524pt.
 
-Overfull \vbox (3.91644pt too high) detected at line 662
+Overfull \vbox (3.91644pt too high) detected at line 553
  []
 
-[16
+[23
 
  <./imgs/fig1.png>]
-<imgs/tab3.png, id=120, 749.80125pt x 270.00874pt>
+<imgs/tab3.png, id=156, 749.80125pt x 270.00874pt>
 File: imgs/tab3.png Graphic file (type png)
 <use imgs/tab3.png>
-Package pdftex.def Info: imgs/tab3.png  used on input line 675.
+Package pdftex.def Info: imgs/tab3.png  used on input line 566.
 (pdftex.def)             Requested size: 282.90598pt x 101.87514pt.
- [17
+ [24
 
  <./imgs/tab3.png>]
-<imgs/fig2.png, id=127, 870.25125pt x 678.535pt>
+<imgs/fig2.png, id=163, 870.25125pt x 678.535pt>
 File: imgs/fig2.png Graphic file (type png)
 <use imgs/fig2.png>
-Package pdftex.def Info: imgs/fig2.png  used on input line 687.
+Package pdftex.def Info: imgs/fig2.png  used on input line 581.
 (pdftex.def)             Requested size: 304.6695pt x 237.55292pt.
 
-Overfull \vbox (24.11412pt too high) detected at line 687
+Overfull \vbox (39.05856pt too high) detected at line 581
  []
 
-[18
+[25
 
  <./imgs/fig2.png>]
-<imgs/fig3_foot.png, id=134, 914.41624pt x 540.0175pt>
+<imgs/fig3_foot.png, id=172, 914.41624pt x 540.0175pt>
 File: imgs/fig3_foot.png Graphic file (type png)
 <use imgs/fig3_foot.png>
-Package pdftex.def Info: imgs/fig3_foot.png  used on input line 704.
+Package pdftex.def Info: imgs/fig3_foot.png  used on input line 598.
 (pdftex.def)             Requested size: 348.19656pt x 205.62901pt.
-
-Overfull \vbox (5.19022pt too high) detected at line 704
- []
-
-[19
-
- <./imgs/fig3_foot.png>]
-<imgs/fig4.png, id=142, 887.315pt x 415.5525pt>
-File: imgs/fig4.png Graphic file (type png)
-<use imgs/fig4.png>
-Package pdftex.def Info: imgs/fig4.png  used on input line 722.
-(pdftex.def)             Requested size: 348.19656pt x 163.06667pt.
- [20
-
- <./imgs/fig4.png>]
-<imgs/fig5.png, id=149, 889.3225pt x 581.17125pt>
-File: imgs/fig5.png Graphic file (type png)
-<use imgs/fig5.png>
-Package pdftex.def Info: imgs/fig5.png  used on input line 738.
-(pdftex.def)             Requested size: 348.19656pt x 227.54266pt.
-
-Overfull \vbox (29.04831pt too high) detected at line 738
- []
-
-[21
-
- <./imgs/fig5.png>]
-<imgs/fig7.png, id=156, 860.21375pt x 546.04pt>
-File: imgs/fig7.png Graphic file (type png)
-<use imgs/fig7.png>
-Package pdftex.def Info: imgs/fig7.png  used on input line 758.
-(pdftex.def)             Requested size: 304.6695pt x 193.3998pt.
-
-Overfull \vbox (16.90544pt too high) detected at line 758
- []
-
-[22
-
- <./imgs/fig7.png>] [23
-
-] [24
-
-] [25
-
-]
-<imgs/tab4.png, id=180, 897.3525pt x 503.8825pt>
-File: imgs/tab4.png Graphic file (type png)
-<use imgs/tab4.png>
-Package pdftex.def Info: imgs/tab4.png  used on input line 876.
-(pdftex.def)             Requested size: 369.96008pt x 207.73877pt.
  [26
 
- <./imgs/tab4.png>]
-<imgs/fig9_foot.png, id=187, 909.3975pt x 462.72874pt>
-File: imgs/fig9_foot.png Graphic file (type png)
-<use imgs/fig9_foot.png>
-Package pdftex.def Info: imgs/fig9_foot.png  used on input line 910.
-(pdftex.def)             Requested size: 304.6695pt x 155.02391pt.
+ <./imgs/fig3_foot.png>]
+<imgs/fig4.png, id=179, 887.315pt x 415.5525pt>
+File: imgs/fig4.png Graphic file (type png)
+<use imgs/fig4.png>
+Package pdftex.def Info: imgs/fig4.png  used on input line 614.
+(pdftex.def)             Requested size: 348.19656pt x 163.06667pt.
  [27
 
- <./imgs/fig9_foot.png>]
-<imgs/fig10.png, id=194, 906.38625pt x 565.11125pt>
-File: imgs/fig10.png Graphic file (type png)
-<use imgs/fig10.png>
-Package pdftex.def Info: imgs/fig10.png  used on input line 926.
-(pdftex.def)             Requested size: 282.90598pt x 176.38126pt.
- [28
+ <./imgs/fig4.png>]
+<imgs/fig5.png, id=186, 889.3225pt x 581.17125pt>
+File: imgs/fig5.png Graphic file (type png)
+<use imgs/fig5.png>
+Package pdftex.def Info: imgs/fig5.png  used on input line 630.
+(pdftex.def)             Requested size: 322.08298pt x 210.48073pt.
 
- <./imgs/fig10.png>]
-<imgs/tab7.png, id=201, 701.62125pt x 636.3775pt>
-File: imgs/tab7.png Graphic file (type png)
-<use imgs/tab7.png>
-Package pdftex.def Info: imgs/tab7.png  used on input line 952.
-(pdftex.def)             Requested size: 206.74025pt x 187.5161pt.
- [29
+Overfull \vbox (11.98637pt too high) detected at line 630
+ []
 
- <./imgs/tab7.png>] [30
+[28
+
+ <./imgs/fig5.png>]
+<imgs/fig7.png, id=193, 860.21375pt x 546.04pt>
+File: imgs/fig7.png Graphic file (type png)
+<use imgs/fig7.png>
+Package pdftex.def Info: imgs/fig7.png  used on input line 650.
+(pdftex.def)             Requested size: 304.6695pt x 193.3998pt.
+
+Overfull \vbox (16.90544pt too high) detected at line 650
+ []
+
+[29
+
+ <./imgs/fig7.png>] [30
 
 ] [31
+
+] [32
+
+]
+<imgs/tab4.png, id=216, 897.3525pt x 503.8825pt>
+File: imgs/tab4.png Graphic file (type png)
+<use imgs/tab4.png>
+Package pdftex.def Info: imgs/tab4.png  used on input line 757.
+(pdftex.def)             Requested size: 369.96008pt x 207.73877pt.
+ [33
+
+ <./imgs/tab4.png>]
+<imgs/tab5_foot.png, id=223, 903.375pt x 569.12625pt>
+File: imgs/tab5_foot.png Graphic file (type png)
+<use imgs/tab5_foot.png>
+Package pdftex.def Info: imgs/tab5_foot.png  used on input line 769.
+(pdftex.def)             Requested size: 352.54662pt x 222.10597pt.
+
+Overfull \vbox (8.66718pt too high) detected at line 769
+ []
+
+[34
+
+ <./imgs/tab5_foot.png>]
+<imgs/fig9_foot.png, id=230, 909.3975pt x 462.72874pt>
+File: imgs/fig9_foot.png Graphic file (type png)
+<use imgs/fig9_foot.png>
+Package pdftex.def Info: imgs/fig9_foot.png  used on input line 787.
+(pdftex.def)             Requested size: 304.6695pt x 155.02391pt.
+ [35
+
+ <./imgs/fig9_foot.png>]
+<imgs/fig10.png, id=237, 906.38625pt x 565.11125pt>
+File: imgs/fig10.png Graphic file (type png)
+<use imgs/fig10.png>
+Package pdftex.def Info: imgs/fig10.png  used on input line 803.
+(pdftex.def)             Requested size: 282.90598pt x 176.38126pt.
+ [36
+
+ <./imgs/fig10.png>]
+<imgs/tab7.png, id=244, 701.62125pt x 636.3775pt>
+File: imgs/tab7.png Graphic file (type png)
+<use imgs/tab7.png>
+Package pdftex.def Info: imgs/tab7.png  used on input line 829.
+(pdftex.def)             Requested size: 206.74025pt x 187.5161pt.
+ [37
+
+ <./imgs/tab7.png>] [38
+
+] [39
 
 ]
 \tf@nav=\write6
@@ -1194,18 +1246,18 @@ Package rerunfilecheck Info: Checksums for `dAvernas_2025_slides.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 31207 strings out of 478268
- 663249 string characters out of 5846347
- 1004065 words of memory out of 5000000
- 48631 multiletter control sequences out of 15000+600000
+ 31235 strings out of 478268
+ 663600 string characters out of 5846347
+ 1004122 words of memory out of 5000000
+ 48642 multiletter control sequences out of 15000+600000
  499261 words of font info for 118 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,11n,122p,743b,555s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,11n,122p,486b,555s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on dAvernas_2025_slides.pdf (31 pages, 3705067 bytes).
+Output written on dAvernas_2025_slides.pdf (39 pages, 3901106 bytes).
 PDF statistics:
- 301 PDF objects out of 1000 (max. 8388607)
- 201 compressed objects within 3 object streams
- 63 named destinations out of 1000 (max. 500000)
- 112 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 350 PDF objects out of 1000 (max. 8388607)
+ 240 compressed objects within 3 object streams
+ 79 named destinations out of 1000 (max. 500000)
+ 117 words of extra memory for PDF output out of 10000 (max. 10000000)
 
